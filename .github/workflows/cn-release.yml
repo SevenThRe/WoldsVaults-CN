@@ -1,0 +1,191 @@
+name: CN build (Wold's Vaults)
+
+# 每次整合包发新版都能一键（或自动）产出一套汉化三件套：
+#   1. woldsvaults_cn-<mod>-<pack>-universal.jar   汉化模组
+#   2. WoldsVaults-<pack>-CN-Client-PCL.zip        客户端包（拖进 PCL 即装即汉化）
+#   3. WoldsVaults-<pack>-CN-Server.zip            服务端包（已去重重复 modid）
+#
+# 原理：汉化模组的 15 个 class 文件（6 顶层 + 3 内部类 + 6 Mixin）与整合包
+# 版本解耦，只读取三份载荷（literal_zh_cn.tsv / lang json / config_payload）。
+# 所以新版只需「重基底」——按新版语料重建载荷，然后注入整合包。
+# 详见 tools/cnrebase/。构建末尾自动跑交付门禁（--strict：断言不通过、或
+# 因缺源包而没跑成，都算失败），不过即不发布。
+
+on:
+  workflow_dispatch:
+    inputs:
+      pack-version:
+        description: "整合包版本（留空 = 自动取 CurseForge 最新）"
+        required: false
+        default: ""
+      mod-version:
+        description: "汉化模组版本号"
+        required: false
+        default: "1.0.17"
+      client-url:
+        description: "客户端整合包直链（留空 = 走 CurseForge API）"
+        required: false
+        default: ""
+      server-url:
+        description: "官方服务端包直链（留空 = 走 CurseForge API）"
+        required: false
+        default: ""
+      publish:
+        description: "创建 GitHub Release"
+        type: boolean
+        default: true
+  repository_dispatch:
+    types: [wolds-vaults-released]
+  schedule:
+    - cron: "41 5 * * *" # 每天 05:41 UTC 检查是否有新版本
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cn-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # cnrebase 只用 Python 标准库，无需装任何依赖。
+      # （旧 i18n 通道的 requirements.txt 已随通道归档，不要再引入。）
+      - name: 校验运行时
+        run: python -c "import sys; print(sys.version)"
+
+      # ---------------- 解析版本 ----------------
+      - name: 解析整合包版本
+        id: v
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+        run: |
+          set -euo pipefail
+          VER="${{ inputs.pack-version }}"
+          if [ -z "$VER" ]; then
+            if [ -z "${CF_API_KEY:-}" ]; then
+              echo "::error::未指定版本且缺少 CF_API_KEY，无法自动检测最新版"
+              exit 1
+            fi
+            VER=$(curl -sf -H "x-api-key: $CF_API_KEY" \
+              "https://api.curseforge.com/v1/mods/957311/files?pageSize=20" \
+              | jq -r '[.data[] | select(.isServerPack|not)] | sort_by(.fileDate) | last | .fileName' \
+              | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -1)
+          fi
+          [ -n "$VER" ] || { echo "::error::版本解析失败"; exit 1; }
+          echo "version=$VER" >> "$GITHUB_OUTPUT"
+          echo "整合包版本：$VER"
+
+      - name: 判断是否已构建
+        id: dup
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh release view "cn-v${{ steps.v.outputs.version }}" >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "cn-v${{ steps.v.outputs.version }} 已发布，跳过构建"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      # ---------------- 取包 ----------------
+      - name: 缓存整合包
+        if: steps.dup.outputs.exists == 'false'
+        uses: actions/cache@v4
+        with:
+          path: work/packs
+          key: wolds-packs-${{ steps.v.outputs.version }}
+
+      - name: 拉取整合包
+        if: steps.dup.outputs.exists == 'false'
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p work
+          python -m tools.cnrebase.fetch \
+            --version "${{ steps.v.outputs.version }}" \
+            --out work/packs \
+            --url-client "${{ inputs.client-url }}" \
+            --url-server "${{ inputs.server-url }}" \
+            > work/fetch.json
+          cat work/fetch.json
+
+      # ---------------- 重基底 + 注入 + 门禁 ----------------
+      # cli all 末尾对 dist/ 下三件产物跑交付断言（class 集合 = 母版、
+      # manifest projectID/fileID 逐条保真、载荷全部预置、预置 JSON 结构
+      # 无退化、Mixin 目标类在新版仍存在、产物内无重复 modid 等）。
+      # --strict 让「因缺源包而跳过的断言」同样判定失败 —— 避免「一半断言
+      # 没跑」也亮绿灯。返回非零则后续 artifact / Release 步骤不执行。
+      - name: 重基底 + 注入 + 交付门禁
+        if: steps.dup.outputs.exists == 'false'
+        run: |
+          set -euo pipefail
+          CLIENT=$(jq -r .client work/fetch.json)
+          SERVER=$(jq -r '.server // empty' work/fetch.json)
+          ARGS=(--client "$CLIENT"
+                --pack-version "${{ steps.v.outputs.version }}"
+                --mod-version "${{ inputs.mod-version }}"
+                --out build/cn
+                --strict)
+          if [ -n "$SERVER" ]; then ARGS+=(--server "$SERVER"); fi
+          echo "python -m tools.cnrebase.cli all ${ARGS[*]}"
+          python -m tools.cnrebase.cli all "${ARGS[@]}"
+
+      - name: 写入 Job Summary
+        if: steps.dup.outputs.exists == 'false'
+        run: |
+          {
+            echo "## Wold's Vaults 汉化构建 · v${{ steps.v.outputs.version }}"
+            echo ""
+            cat build/cn/CN-REPORT.md
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # ---------------- 产物 ----------------
+      # 服务端包近 600 MB，只进 Release，不进 artifact（否则上传耗时且翻倍占空间）
+      - name: 上传 artifact
+        if: steps.dup.outputs.exists == 'false'
+        uses: actions/upload-artifact@v4
+        with:
+          name: cn-${{ steps.v.outputs.version }}
+          path: |
+            build/cn/dist/woldsvaults_cn-*.jar
+            build/cn/dist/WoldsVaults-*-CN-Client-PCL.zip
+            build/cn/CN-REPORT.md
+            build/cn/cn-build-summary.json
+            build/cn/todo/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: 发布 Release
+        if: >-
+          steps.dup.outputs.exists == 'false' &&
+          (inputs.publish == true || github.event_name == 'repository_dispatch')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          TAG="cn-v${{ steps.v.outputs.version }}"
+          TITLE="Wold's Vaults ${{ steps.v.outputs.version }} 汉化版"
+          NOTES=$(cat build/cn/CN-REPORT.md)
+          FILES=(build/cn/dist/woldsvaults_cn-*.jar
+                 build/cn/dist/WoldsVaults-*-CN-Client-PCL.zip)
+          if [ -f "build/cn/dist/WoldsVaults-${{ steps.v.outputs.version }}-CN-Server.zip" ]; then
+            FILES+=(build/cn/dist/WoldsVaults-${{ steps.v.outputs.version }}-CN-Server.zip)
+          fi
+          gh release create "$TAG" \
+            "${FILES[@]}" \
+            --title "$TITLE" \
+            --notes "$NOTES"
+
+      - name: 无新版本
+        if: steps.dup.outputs.exists == 'true'
+        run: echo "v${{ steps.v.outputs.version }} 已经构建过，本次无需操作。"

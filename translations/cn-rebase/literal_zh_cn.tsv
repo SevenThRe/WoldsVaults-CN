@@ -1,0 +1,725 @@
+en	zh
+ Lucky Hit Chance from your total Lucky Hit	 幸运一击几率（取自你的总幸运一击）
+ increased overall mining speed	整体挖掘速度
+ times per vault.	 次。
++Gain	+获得
++Gain 	+获得
++Revives you instantly, and heals you fully if you die inside a vault. This effect can occur	+若你在宝库内死亡，会立即复活并完全治疗。此效果每个宝库可触发
+Battering Ram	攻城锤
+Berserker	狂战士
+Blast Wave	冲击波
+Bloodlust	嗜血
+Charged Bolts	充能弹
+Curvy Pipes	弯曲管道
+Decoy	诱饵
+Explosion_Small	小型爆炸
+Hungry Maw	饥饿巨口
+Instinct	本能
+Looting has a	搜刮时有
+Looting has a 	搜刮时有
+Lucky Hit Chance from your total Lucky Hit	幸运一击几率（取自你的总幸运一击）
+Max rank learned	已学满该阶
+Necromancy	死灵术
+Necromancy: Archer	死灵术：弓手
+Necromancy: Golem	死灵术：傀儡
+Next rank:	下一阶：
+Prism	棱镜
+Rank	等级
+Row unlocked	行已解锁
+Shard Blizzard	碎片暴雪
+Singularity	奇点
+Sticky Cube	黏性方块
+Tremor	震颤
+Ultimate Shield	终极护盾
+Unlocks rank	解锁阶
+Wall of Fangs	尖牙之墙
+client	client
+difficulty	difficulty
+greed	greed
+increased overall mining speed	整体挖掘速度
+more skill points spent in talents	在天赋中多消耗的技能点
+skill points	技能点
+skill points spent in talents	消耗于天赋的技能点
+times per vault.	次。
++AXING	+砍伐
++Axing	+砍伐
++EXCAVATING	+掘进
++FARMING	+农耕
++HAMMERING	+锤击
++Hammering	+锤击
++IMMORTAL	+不朽
++PULVERISING	+粉碎
++Picking	+挖掘
++QUICK	+迅捷
++REINFORCED	+强化
++Reaping	+收割
++SHATTERING	+碎裂
++SHOVELING	+铲掘
++SMELTING	+熔炼
++STURDY	+坚固
++Shoveling	+铲掘
+AXING	砍伐
+Axing	砍伐
+EXCAVATING	掘进
+FARMING	农耕
+HAMMERING	锤击
+Hammering	锤击
+IMMORTAL	不朽
+PULVERISING	粉碎
+Picking	挖掘
+QUICK	迅捷
+REINFORCED	强化
+Reaping	收割
+SHATTERING	碎裂
+SHOVELING	铲掘
+SMELTING	熔炼
+STURDY	坚固
+Shoveling	铲掘
+Bleed I	流血 I	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Bleed II	流血 II	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Bleed III	流血 III	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Bleed IV	流血 IV	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Bleed V	流血 V	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Chilling I	冰冷 I	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Chilling II	冰冷 II	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Chilling III	冰冷 III	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Chilling IV	冰冷 IV	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Chilling V	冰冷 V	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Healing I	治疗 I	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Healing II	治疗 II	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Healing III	治疗 III	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Healing IV	治疗 IV	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Healing V	治疗 V	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Poison I	剧毒 I	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Poison II	剧毒 II	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Poison III	剧毒 III	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Poison IV	剧毒 IV	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Poison V	剧毒 V	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Regeneration I	生命恢复 I	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Regeneration II	生命恢复 II	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Regeneration III	生命恢复 III	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Regeneration IV	生命恢复 IV	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Regeneration V	生命恢复 V	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Resistance I	抗性 I	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Resistance II	抗性 II	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Resistance III	抗性 III	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Resistance IV	抗性 IV	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Resistance V	抗性 V	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Slowness I	缓慢 I	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Slowness II	缓慢 II	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Slowness III	缓慢 III	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Slowness IV	缓慢 IV	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Slowness V	缓慢 V	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Unluck I	不幸 I	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Unluck II	不幸 II	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Unluck III	不幸 III	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Unluck IV	不幸 IV	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Unluck V	不幸 V	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Weakness I	虚弱 I	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Weakness II	虚弱 II	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Weakness III	虚弱 III	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Weakness IV	虚弱 IV	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Weakness V	虚弱 V	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Wither I	凋零 I	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Wither II	凋零 II	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Wither III	凋零 III	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Wither IV	凋零 IV	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Wither V	凋零 V	xyz/iwolfking/woldsvaults/datagen/ModVaultGearTiersProvider.class
+Museum Booster Pack	博物馆补充包	xyz/iwolfking/woldsvaults/datagen/ModBoosterPackProvider.class
+Terraforce Wand	地脉之力魔杖	iskallia/vault/init/ModDynamicModels$Wands.class
+Terra's Wrath	大地之怒	iskallia/vault/init/ModDynamicModels$Swords.class
+Dragon Breath	龙息	iskallia/vault/init/ModDynamicModels$Relics.class
+Castle Bastion	城堡堡垒	iskallia/vault/init/ModGearAttributes.class
+Jester's Luck	小丑的幸运	iskallia/vault/init/ModGearAttributes.class
+Radiation Immunity	辐射免疫	xyz/iwolfking/woldsvaults/init/ModGearAttributes.class
+Additional Max Stacks	额外最大层数	xyz/iwolfking/woldsvaults/init/ModGearAttributes.class
+Heart Fragment	心脏碎片	xyz/iwolfking/woldsvaults/datagen/ModAbilityDescriptionsProvider.class
+Plague Steppers	瘟疫践踏者	xyz/iwolfking/woldsvaults/datagen/ModUniqueGearProvider.class
+Artifact Chance	神器几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Catalyst Fragment Chance	催化剂碎片几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Soul Shard Chance	灵魂碎片几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Increased Artifact Chance	神器几率提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+More Catalyst Fragments	更多催化剂碎片	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+More Champion Drops	更多冠军掉落	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Increased Health	生命提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Decreased Health	生命降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Decreased Damage	伤害降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Increased Mana Regeneration	魔力回复提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Decreased Mana Regeneration	魔力回复降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Increased Mob Health	怪物生命提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Decreased Mob Health	怪物生命降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Increased Mob Damage	怪物伤害提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Decreased Mob Damage	怪物伤害降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Increased Mob Speed	怪物速度提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Decreased Mob Speed	怪物速度降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Increased Knockback Resistance	击退抗性提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Decreased Knockback Resistance	击退抗性降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Increased Mob Knockback Resistance	怪物击退抗性提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Decreased Mob Knockback Resistance	怪物击退抗性降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Increased Mob Critical Chance	怪物暴击几率提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Decreased Mob Critical Chance	怪物暴击几率降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Anti-Blindness Immunity	抗失明免疫	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Permanent Blindness Effect	永久失明效果	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Frosty Spawns	寒霜生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Fungal Spawns	真菌生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Storm Spawns	风暴生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Safari Spawns	游猎生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Explosive Spawns	爆炸生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Wild Spawners	狂野刷怪笼	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Shulker Bullet Spawns	潜影贝子弹生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Lava Pools	熔岩池	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Mob Party	怪物派对	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Mini Mob Party	迷你怪物派对	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Candy Party	糖果派对	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Events Extravaganza	事件狂欢	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Arcane Foes	奥术敌人	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Sharpened Mobs	锐化怪物	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Scorching Heat	酷热	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Four-Leaf Clover	四叶草	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Light's Out	熄灯	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Jumpy Deluxe	跳跃豪华版	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Super Wealthy	超级富有	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Super Wooden	超级木质	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Mana Plunderers	魔力掠夺者	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Void Touch	虚空触碰	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Spirit Restore	精神恢复	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Spicy Chili Speed	辣椒冲刺速度	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Omega Vein	欧米伽矿脉	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Rich Veins	丰富矿脉	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Perfect Veins	完美矿脉	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Less Ores	更少矿石	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Less Time	更少时间	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+More Time	更多时间	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Cosmic Chests	宇宙宝箱	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Epic Crate Tier	史诗宝箱阶级	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Rare Crate Tier	稀有宝箱阶级	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Greedy Crate Tier	贪婪宝箱阶级	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Omega Crate Tier	欧米伽宝箱阶级	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+All Bad Enchanted Elixir	全负面附魔灵药	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+All Bad Haunted Braziers	全负面闹鬼火盆	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Coin Pile Hunter	金币堆猎人	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+God Altar Hunter	神之祭坛猎人	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Tenos' Challenge	Tenos 的挑战	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Armed Mobs (Fire Grenade)	武装怪物（火焰手雷）	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Armed Mobs (Ice Grenade)	武装怪物（冰霜手雷）	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Armed Mobs (Lightning Grenade)	武装怪物（闪电手雷）	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Armed Mobs (Slime Grenade)	武装怪物（史莱姆手雷）	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+Armed Mobs (Spore Grenade)	武装怪物（孢子手雷）	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Bonus Coin Pile Spawns	+1 额外金币堆生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Bonus Gilded Chest Spawns	+1 额外镀金宝箱生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Bonus Living Chest Spawns	+1 额外生命宝箱生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Bonus Ornate Chest Spawns	+1 额外华丽宝箱生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Bonus Wooden Chest Spawns	+1 额外木制宝箱生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Dweller Spawner Spawns	+1 潜伏者刷怪笼生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Frosty Spawners	+1 寒霜刷怪笼	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Fungal Spawners	+1 真菌刷怪笼	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Lava Pool Spawns	+1 熔岩池生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Randomly Spawning Champion Vex	+1 随机生成的冠军恼鬼	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Safari Spawners	+1 游猎刷怪笼	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Second of Vault Time	+1 秒宝库时间	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Set of Randomly Spawning Ghosts	+1 组随机生成的幽灵	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Shulker Bullet Spawns	+1 潜影贝子弹生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Storm Spawners	+1 风暴刷怪笼	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 TNT Spawns	+1 TNT 生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Vault Bedrock Spawns	+1 宝库基岩生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1 Void Pool Spawns	+1 虚空池生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Artifact Chance	+1% 神器几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Catalyst Fragment Chance	+1% 催化剂碎片几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Catalyst Fragments	+1% 催化剂碎片	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Champion Chance	+1% 冠军几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Decreased Mob Critical Chance	+1% 怪物暴击几率降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Decreased Mob Damage	+1% 怪物伤害降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Decreased Mob Health	+1% 怪物生命降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Decreased Mob Knockback Resistance	+1% 怪物击退抗性降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Decreased Mob Speed	+1% 怪物速度降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Increased Damage	+1% 伤害提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Increased Knockback Resistance	+1% 击退抗性提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Increased Mob Critical Chance	+1% 怪物暴击几率提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Increased Mob Damage	+1% 怪物伤害提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Increased Mob Health	+1% 怪物生命提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Increased Mob Knockback Resistance	+1% 怪物击退抗性提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Increased Mob Speed	+1% 怪物速度提高	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Item Quantity and Rarity	+1% 物品数量与稀有度	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Mob Health and Damage	+1% 怪物生命与伤害	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% More Ores	+1% 更多矿石	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Soul Shard Chance	+1% 灵魂碎片几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++1% Trap Chance	+1% 陷阱几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++100% Mob Max Health	+100% 怪物最大生命值	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++25% Champion Loot	+25% 冠军战利品	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++25% Champions	+25% 冠军怪	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++25% Flesh Chests	+25% 血肉宝箱	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++25% Hardened Chests	+25% 硬化宝箱	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++25% Trap Disarm Chance	+25% 陷阱解除几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++3 Speed	+3 速度	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++30% Mob Speed	+30% 怪物速度	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++300% Mob Spawns	+300% 怪物生成	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++35% Copiously	+35% 丰饶	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++4 Randomly Spawning Ghosts	+4 个随机生成的幽灵	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++400% Crate Quantity	+400% 宝箱数量	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++50% Mob Max Health	+50% 怪物最大生命值	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++50% Trap Disarm Chance	+50% 陷阱解除几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++6 Strength	+6 力量	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++60% Vault Ores	+60% 宝库矿石	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++7.5 Mob Critical Strike Chance	+7.5 怪物暴击几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
++8 Randomly Spawning Ghosts	+8 个随机生成的幽灵	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-1 Second of Vault Time	-1 秒宝库时间	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-1% Decreased Damage	-1% 伤害降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-1% Decreased Knockback Resistance	-1% 击退抗性降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-1% Mana Regeneration	-1% 魔力回复降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-1% More Ores	-1% 更多矿石	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-100% Trap Disarm Chance	-100% 陷阱解除几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-1000 Mob Critical Strike Chance	-1000 怪物暴击几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-1000% Champion Loot	-1000% 冠军战利品	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-1000% Mob Critical Strike Chance	-1000% 怪物暴击几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-15% Mana Regeneration	-15% 魔力回复降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-25% Max Health	-25% 最大生命值降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-25% Mob Max Health	-25% 怪物最大生命值降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-25% Trap Disarm Chance	-25% 陷阱解除几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-50% Durability Damage	-50% 耐久损耗降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+-50% Mob Max Health	-50% 怪物最大生命值降低	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+3x Challenge Room Chance	3 倍挑战房间几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+4x Omega Room Chance	4 倍欧米伽房间几率	xyz/iwolfking/woldsvaults/datagen/ModVaultModifiersProvider.class
+     EXTREME (3x)	     极高（3倍）
+     GRINDY (2x)	     肝度高（2倍）
+     INFINITY (no cost)	     无限（无花费）
+     NORMAL (1x)	     普通（1倍）
+    AVERAGE (Average of combined XP)	    平均（合并经验取平均）
+    DISABLED (No share. Default)	    禁用（不共享，默认）
+    Easy	    简单
+    EXTREME (3x)	    极高（3倍）
+    FAST (2x)	    快速（2倍）
+    Fragged	    破碎
+    Hard (Dwellers can throw bricks now)	    困难（潜伏者现在会扔砖）
+    HIGHEST (match highest XP gained)	    最高（匹配最高获得经验）
+    Impossible	    不可能
+    LOWEST (Match lowest XP gained)	    最低（匹配最低获得经验）
+    NORMAL (1x)	    普通（1倍）
+    Normal (Default)	    普通（默认）
+    Piece of Cake	    小菜一碟
+    SLOW (0.5x)	    慢速（0.5倍）
+  LEGACY (50%) / NORMAL (100%)	  旧版（50%）/ 普通（100%）
+  NORMAL (100%) / DOUBLE (200%)	  普通（100%）/ 双倍（200%）
+  PLENTY (200%) / EXTREME (300%)	  丰富（200%）/ 极高（300%）
+  POOR (10%) / HALF (50%)	  贫乏（10%）/ 一半（50%）
+  TRIPLE (300%)	  三倍（300%）
+/gamerule vaultTimer X	/gamerule vaultTimer X
+&5...Or you can break the Pylon!	&5……或者你可以打碎晶塔！
+&5And the Braziers can have nastier effects as well.	&5火盆的效果也可能更加凶险。
+&5But their health plumets to 1 HP... usually.	&5不过它们的生命值会暴跌到 1 点……通常如此。
+&5Can only swing your weapons so fast, ya know?	&5毕竟你挥武器就那么快，你说对吧？
+&5Consider it Yet Another Form of Currency.	&5就把它当成又一种货币形式吧。
+&5Do you want a chance to make it even better?	&5想不想有机会让它变得更好？
+&5Earning a Bingo Crate can be fairly difficult.	&5要拿到宾果箱可能相当困难。
+&5Especially that last one. More treasures.	&5尤其是最后那个。更多宝藏。
+&5Gilded Chests contain sparkling and luxurious loot.	&5镀金宝箱里装着闪闪发光又奢华的战利品。
+&5Good cards, however...	&5不过好卡牌……
+&5Have you found the perfect piece of gear?	&5你找到完美的那件装备了吗？
+&5Here's a fairly interesting Capstone.	&5这里有个相当有意思的顶石。
+&5If you like Bingo, then check this out.	&5如果你喜欢宾果，那就来试试这个。
+&5It's called....Bingo.	&5它叫……宾果。
+&5Next up is level 50.	&5接下来就是 50 级。
+&5Oh, and food!	&5哦，还有食物！
+&5Okay, some quick tips from me for this fight!	&5好吧，这场战斗我给你几条快速提示！
+&5Other than a blackout in Bingo at least.	&5大概也就宾果的全盘涂满能与之相比。
+&5See? Chaos.	&5看吧？一片混沌。
+&5So expect a fight in those rooms as well.	&5所以那些房间里也会有一场硬仗。
+&5Sometimes its kill certain types of mobs. 	&5有时是击杀特定类型的怪物。
+&5Start collecting em. They lead to great treasures!	&5开始收集它们吧。它们会通向巨大的宝藏！
+&5The chests at points of interest are random too!	&5兴趣点处的箱子也是随机的！
+&5The next Vault Objective just unlocked for you.	&5下一个宝库目标已为你解锁。
+&5The Weaving Station is used to craft Trinket Pouches.	&5编织站用于制作饰品袋。
+&5There's a special level of gear called a Unique. 	&5装备中还有一个特殊等级，叫做独特物品。
+&5These boxes will only drop items from the listed mod.	&5这些箱子只会掉落所指定模组的物品。
+&5These can contain a few useful resources. 	&5里面可能有一些有用的资源。
+&5This makes it more and more expensive to modify!	&5这会让修改成本越来越高！
+&5To unfreeze modifiers, use a Blazing Focus.	&5要解冻修饰词，请使用炽燃聚焦器。
+&5You can only choose one, however.	&5不过你只能选择一种。
+&5You can Right Click the Pylon to activate it..	&5你可以右键点击晶塔来激活它。
+&5You'll notice the board is bigger, of course	&5当然，你会注意到棋盘变大了
+&6/gamerule VaultExperience amount	&6/gamerule VaultExperience amount
+&6/gamerule VaultLoot amount	&6/gamerule VaultLoot amount
+&6/the_vault research_team invite player_name	&6/the_vault research_team invite player_name
+&6weaponsShouldntBeBetter = false	&6weaponsShouldntBeBetter = false
+Any Trinket Pouch	任意饰品袋
+Find an Imbuement Altar	找到一个灌注祭坛
+If you do : 	如果这样做：
+Core	核心
+Advanced	进阶
+Specialisation	专精
+Finale	终章
+needed	需要
+Arcane	奥术
+Archon	执政官
+Ball Lightning	球状闪电
++Ball Lightning	球状闪电
++Battering Ram	攻城锤
+Battle Cry	战吼
++Battle Cry	战吼
++Blast Wave	冲击波
+Blizzard Arrow	暴雪箭
++Blizzard Arrow	暴雪箭
+Bullet	子弹
+Bulwark	壁垒
+Chain Miner	连锁挖矿
++Chain Miner	连锁挖矿
+Chaining	连锁
+Chaos Cube	混沌立方
++Chaos Cube	混沌立方
++Charged Bolts	充能弹
+Charm	魅惑
+Cleanse	净化
+Coldsnap	寒潮
+Colossus	巨像
+Concentrate	凝聚
+Dash	冲刺
+Diffuse	驱散
+Earthquake	地震
+Empower	强化
+Entropic Bind	熵缚
++Entropic Bind	熵缚
+Execute	处决
+Fangs	尖牙
+Farmer	农夫
+Farmer: Cultivator	农夫：耕作者
++Farmer: Cultivator	农夫：耕作者
+Farmer: Gardener	农夫：园丁
++Farmer: Gardener	农夫：园丁
+Farmer: Rancher	农夫：牧场主
++Farmer: Rancher	农夫：牧场主
+Fear	恐惧
+Finesse Miner	巧手挖矿
++Finesse Miner	巧手挖矿
+Fire Volley	火焰齐射
++Fire Volley	火焰齐射
+Fireball	火球
+Fireshot	火焰射击
+Frost Nova	冰霜新星
++Frost Nova	冰霜新星
+Ghost Walk	幽灵行走
++Ghost Walk	幽灵行走
+Glacial Blast	冰川冲击
++Glacial Blast	冰川冲击
+Group Heal	群体治疗
++Group Heal	群体治疗
+Hatred Totem	仇恨图腾
++Hatred Totem	仇恨图腾
+Heal	治疗
+Hero's Landing	英雄落地
++Hero's Landing	英雄落地
++Hungry Maw	饥饿巨口
+Hunter	猎手
+Hunter: Javelin	猎手：标枪
++Hunter: Javelin	猎手：标枪
+Ice Armor	寒冰护甲
++Ice Armor	寒冰护甲
+Ice Bolt	寒冰箭
++Ice Bolt	寒冰箭
+Implode	内爆
+Javelin	标枪
+Landmine	地雷
+Levitate	漂浮
+Life Tap	生命汲取
++Life Tap	生命汲取
+Lightning Strike	闪电打击
++Lightning Strike	闪电打击
+Lucky Cry	幸运战吼
++Lucky Cry	幸运战吼
+Mana Barrier	魔力屏障
++Mana Barrier	魔力屏障
+Mana Shield	魔力护盾
++Mana Shield	魔力护盾
+Mega Dig	超级挖掘
++Mega Dig	超级挖掘
+Mega Jump	超级跳
++Mega Jump	超级跳
+Mega Jump: Drill	超级跳：钻掘
++Mega Jump: Drill	超级跳：钻掘
++Necromancy: Archer	死灵术：弓手
++Necromancy: Golem	死灵术：傀儡
+Nova	新星
+Piercing Javelin	穿刺标枪
++Piercing Javelin	穿刺标枪
+Poison Nova	剧毒新星
++Poison Nova	剧毒新星
+Porcupine	豪猪
+Quill	尖刺
+Rail	轨道
+Rampage	暴怒
+Rejuvenation Totem	再生图腾
++Rejuvenation Totem	再生图腾
+Retribution	报复
+Scatter Javelin	散射标枪
++Scatter Javelin	散射标枪
++Shard Blizzard	碎片暴雪
+Shell	护壳
+Shield Bash	盾击
++Shield Bash	盾击
+Smite	重击
+Smite: Thunderstorm	重击：雷暴
++Smite: Thunderstorm	重击：雷暴
+Sneaky Getaway	隐秘脱身
++Sneaky Getaway	隐秘脱身
+Spectral Cry	幽影战吼
++Spectral Cry	幽影战吼
+Spirit Totem	灵魂图腾
++Spirit Totem	灵魂图腾
+Spirit Walk	灵魂行走
++Spirit Walk	灵魂行走
++Sticky Cube	黏性方块
+Stonefall	陨石坠落
+Storm Arrow	风暴之箭
++Storm Arrow	风暴之箭
+Summon Eternal	召唤永恒者
++Summon Eternal	召唤永恒者
+Taunt	嘲讽
+Totem	图腾
+Toxic Vial	剧毒药瓶
++Toxic Vial	剧毒药瓶
++Ultimate Shield	终极护盾
+Vampiric	吸血
+Vein Miner	矿脉开采
++Vein Miner	矿脉开采
+Vein Miner: Fortune	矿脉开采：幸运
++Vein Miner: Fortune	矿脉开采：幸运
+Void Miner	虚空挖矿
++Void Miner	虚空挖矿
++Wall of Fangs	尖牙之墙
+Warp	跃迁
+Wrath Totem	愤怒图腾
++Wrath Totem	愤怒图腾
+Greater Life Leech	强化生命偷取
+Frost Bite	冰霜咬击
+Stack Master	叠层大师
+Voltaic Impact	电压冲击
+Axe Specialisation	斧专精
+Sword Specialisation	剑专精
+Blood Rush	血液奔涌
+Twerker	抖臀者
+Greater Might	强化力量
+Battle Trance	战斗忘我
+Greater Haste	强化急迫
+Greater Prudent	强化谨慎
+Trap Disarm	陷阱拆除
+Treasure Sense	寻宝直觉
+Mind Meld	心灵融合
+Potent Elixir	强效灵药
+Healthy Elixir	治愈灵药
+Ransack	翻箱倒柜
+Lunge	突刺
+Momentum Engine	动量引擎
+Blood Chakra	血之脉轮
+Hexbreaker	破咒者
+Greater Intelligence	强化智力
+Greater Speed	强化迅捷
+Mana Harvest	法力丰收
+Prime Amp	至尊增幅
+Artificer of Ages	岁月匠师
+Echoing Hammersmith	回响锤匠
+Mythic Bounty Hunter	神话赏金猎人
+Fetcher of Souls	攫魂者
+Blessing of the Dryad	林妖的祝福
+Prism Weaver	棱镜织者
+Blood Rush Berserker	血涌狂战士
+Tremor Cage	震颤之笼
+Charged Conductor	充能导体
+Battering Bulwark	破击壁垒
+Bone Commander	白骨指挥官
+Prism Anchor	棱镜锚定
+Prism Split	棱镜分裂
+Immortal Seal	不朽之印
+Lucky Coins	幸运硬币
+Weighted Boots	配重靴
+Omega Chest	欧米伽宝箱
+Chests	宝箱
+Loot Chests	战利品箱
+Ann-Mari	安娜玛丽
+Big Boi	大个子
+Coin Chest Loot	金币箱战利品
+Dweller Chests	居住者宝箱
+Moving Day	搬迁日
+Gilded Mob Drops	镀金生物掉落
+Living Mob Drops	生机生物掉落
+Ornate Mob Drops	华饰生物掉落
+Wooden Mob Drops	木质生物掉落
+Gem Mob Drops	宝石生物掉落
+Bingo Experience	宾果经验
+Double XP	双倍经验
+Reduced Attack Damage	攻击伤害降低
+Doomed	厄运临身
+Icy Floors	湿滑地面
+Four-Leafed Clover	四叶草
+Jinxed	霉运缠身
+Water Breathing	水下呼吸
+Rage Cage	狂怒之笼
+Cull	处决
+Portable Cat disabled	便携猫已禁用
+Dash disabled	冲刺已禁用
+Elytra Wings disabled	鞘翅滑翔已禁用
+Area of Effect bonuses removed	范围效果加成已移除
+Weakened Attacks	攻击削弱
+Dungeon Boss (Map)	地牢首领（地图）
+Wooden Barrel (Map)	木桶（地图）
+Challenge: Crystal Caves	挑战：水晶洞窟
+Challenge: Dragon	挑战：巨龙
+Challenge: Factory	挑战：工厂
+Challenge: Laboratory	挑战：实验室
+Challenge: Village	挑战：村庄
+Challenge: Wild West	挑战：狂野西部
+Challenge: X Mark	挑战：X 标记
+Digsite Room	挖掘场房间
+Library #2	图书馆 #2
+General POIs	通用地标
+The Cove	海湾
+WV: Aquarium	WV：水族馆
+WV: Arcade	WV：街机厅
+WV: Card Shop	WV：卡牌商店
+WV: Comet	WV：彗星观测台
+WV: Etching Vendor	WV：蚀刻商人
+WV: Forge	WV：锻造坊
+WV: Gateway	WV：传送大厅
+WV: Graveryard	WV：墓园
+WV: Hellish	WV：炼狱挖掘场
+WV: Labyrinth	WV：迷宫
+WV: Larimar Cave	WV：拉利玛洞穴
+WV: Library	WV：图书馆
+WV: Library Old	WV：旧图书馆
+WV: Library2	WV：图书馆2
+WV: Lost Void	WV：失落虚空
+WV: Pirate Cave	WV：海盗洞穴
+WV: Playzone	WV：游乐区
+WV: Raid Old	WV：旧突袭
+WV: Treasure2	WV：宝藏房2
+WV: Treasure Rooms	WV：宝藏室
+WV: Trove Old	WV：旧秘藏
+WV: Trove	WV：秘藏
+WV: Vendoors	WV：贩卖门
+WV: Vendor Blacksmith Shop	WV：铁匠铺
+WV: Warehouse	WV：仓库
+WV: Woldian Garden	WV：沃德花园
+WV: Wold's Dinner	WV：沃德餐厅
+WV: Zombie Dungeon	WV：僵尸地牢
+Mapped	已勘测
+attribute.name.generic.mana_max	最大法力值
+attribute.name.generic.mana_regen	法力回复
+attribute.name.generic.max_health	最大生命值
+forge.stepHeight	台阶高度
+the_vault.gear_attribute.effect_avoidance.avoidance.bad_effects	免疫负面效果
+Learned	已学习
+Can not be specialized during a vault	宝库内无法专精
+ unspent skill points	 个未使用技能点
+ unspent knowledge points	 个未使用知识点
+ unspent expertise points	 个未使用专精点
+ unspent archetype points	 个未使用原型点
+ unspent prestige points	 个未使用威望点
+unspent skill points	个未使用技能点
+unspent knowledge points	个未使用知识点
+unspent expertise points	个未使用专精点
+unspent archetype points	个未使用原型点
+unspent prestige points	个未使用威望点
+Map Enabled	地图已启用
+Marked Rooms	已标记房间
+Omega Rooms	欧米伽房间
+Ore Rooms	矿石房间
+Resource Rooms	资源房间
+Challenge Rooms	挑战房间
+Inscription Rooms	铭文房间
+Explored Rooms	已探索房间
+Viewer Code	观众代码
+Sync WS Error	同步 WS 错误
+Latest version	最新版本
+Error checking for updates	检查更新时出错
+Failed to render icon for room	渲染房间图标失败
+VaultMapper update available! Current	VaultMapper 有可用更新！当前版本
+Map Preview	地图预览
+Map Scale	地图缩放
+Map X Anchor	地图 X 锚点
+Map X Offset	地图 X 偏移
+Map Y Anchor	地图 Y 锚点
+Map Y Offset	地图 Y 偏移
+Marked Room Color	已标记房间颜色
+Marking room	正在标记房间
+Omega Room Color	欧米伽房间颜色
+Ore Room Color	矿石房间颜色
+Resource Room Color	资源房间颜色
+Room Color	房间颜色
+Room marked	房间已标记
+Room unmarked	房间已取消标记
+Start Room Color	起始房间颜色
+Sync Color	同步颜色
+Sync Error	同步错误
+Pointer Color	指针颜色
+Player Centric Border	以玩家为中心边框
+Player Centric Cutoff	以玩家为中心截断
+Player Centric Rendering	以玩家为中心渲染
+Render border around the player centric rendering range	在玩家中心渲染范围外绘制边框
+Show Inscripted Rooms on the Map	在地图上显示铭文房间
+Show Inscriptions	显示铭文
+Show Room Icons	显示房间图标
+Show Room Icons on the Map	在地图上显示房间图标
+Show Tunnels	显示隧道
+Show Tunnels on the Map	在地图上显示隧道
+Show Viewer Code	显示观众代码
+Show viewer code below the vault map	在宝库地图下方显示观众代码
+Number of cells rendered around player	玩家周围渲染的单元格数量
+Number of pixels cropped from icon from each side	图标每侧裁剪的像素数
+Scale of the arrow, 3 to 30	箭头大小，3 到 30
+Scale of the map, 3 to 30	地图大小，3 到 30
+The IP of the Vault Mapper Sync Server to sync through	用于同步的 Vault Mapper 同步服务器地址
+Vault Mapper Config	Vault Mapper 配置
+Vault Mapper disabled	Vault Mapper 已禁用
+Vault Mapper enabled	Vault Mapper 已启用
+Vault Mapper reset	Vault Mapper 已重置
+Vault Map	宝库地图
+Vault Map rendering disabled	宝库地图渲染已禁用
+Vault Map rendering enabled	宝库地图渲染已启用
+VMSync Reconnected	VMSync 已重新连接
+Mixin failed to apply	Mixin 应用失败
+No map save available for this vault	此宝库没有可用的地图存档
+No rooms available in map	地图中没有可用房间
+You can only mark rooms	你只能标记房间
+You can't mark the start room	你不能标记起始房间
+You can't use this outside of Vaults	你不能在宝库之外使用此功能
+Your color for other players in the vault	你在宝库中其他玩家眼中的颜色
+Unknown Latest Version	未知最新版本
+Top Center	顶部居中
+Bottom Center	底部居中
+Left Center	左侧居中
+Right Center	右侧居中
+Arrow Scale	箭头大小
+Icon Crop	图标裁剪
+Enable rendering the map	启用地图渲染
+Enable syncing the map data between players	启用玩家间地图数据同步
+Color for a Inscripted Vault Room	铭文宝库房间的颜色
+Color for a Marked Vault Room	已标记宝库房间的颜色
+Color for an explored Challenge Room	已探索挑战房间的颜色
+Color for an explored Omega Room	已探索欧米伽房间的颜色
+Color for an explored Ore Room	已探索矿石房间的颜色
+Color for an explored Resource Room	已探索资源房间颜色
+Color for normal Rooms & Hallways	普通房间与走廊的颜色
+Color for the Start room of a Vault	宝库起始房间的颜色
+Color for the current player position	当前玩家位置的颜色
+Challenge Room Color	挑战房间颜色
+Inscription Room Color	铭文房间颜色
+Couldn't copy map to favorite	无法将地图复制到收藏
+Couldn't create map cache file	无法创建地图缓存文件
+Couldn't create map save file	无法创建地图存档文件
+Couldn't read map save file	无法读取地图存档文件
+Something weird with onMessage	onMessage 出现异常情况
+\n Mana Ramp Per Second: 	\n 每秒魔力增幅：
+\n Base Mana / Tick: 	\n 每刻基础魔力：
+\n Percentage Damage Absorbed: 	\n 吸收伤害百分比：
+\n Execute Threshhold: 	\n 处决阈值：
+\n Effect Amplifier: 	\n 效果增幅：
+\n Heart Fragment Chance: 	\n 心之碎片几率：
+\n Base Damage: 	\n 基础伤害：
+\n Attack Damage Percentage: 	\n 攻击伤害百分比：
+\n Base Amplitude: 	\n 基础振幅：
+\n Amplitude Scale Chance: 	\n 振幅缩放几率：
+\n Radius Multiplier: 	\n 半径倍率：
+\n Duration Multiplier: 	\n 持续时间倍率：
+\n Float Speed: 	\n 悬浮速度：
+\n Size: 	\n 体型：
+\n Resistance: 	\n 抗性：
+Percentage Damage Absorbed: 	吸收伤害百分比：
+Base Mana / Tick: 	每刻基础魔力：
+Mana Ramp Per Second: 	每秒魔力增幅：

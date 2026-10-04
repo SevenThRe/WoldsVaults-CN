@@ -1,0 +1,11 @@
+{
+  "name": "woldsvaults_cn",
+  "baseVersion": "1.0.16",
+  "builtForPack": "0.30.0",
+  "file": "woldsvaults_cn-1.0.16-base.jar",
+  "size": 15322079,
+  "sha256": "f4d489a927f4438c1c598d0aba41a2ddadf88c23d76cf051122ec5c939712daf",
+  "entries": 8493,
+  "source": "E:\\Game Files (x86)\\Minecraft\\.minecraft\\versions\\v\\mods\\woldsvaults_cn-1.0.16-0.30.0-universal.jar",
+  "note": "母版：15 个 class（6 顶层 + 3 内部类 + 6 Mixin）跨版本继承，仅载荷按新版语料重建"
+}

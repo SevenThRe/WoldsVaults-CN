@@ -1,0 +1,500 @@
+{
+ "_comment": "翻译记忆库。键=归一化原文的 sha1 前16位，便于跨模组复用。",
+ "version": 1,
+ "updated_at": "2026-09-30T06:58:14Z",
+ "entries": {
+  "00f03137e1553b03": {
+   "en": "    Easy",
+   "zh": "    简单",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "02eb83b9b42caaa9": {
+   "en": "Tunnel Span: ",
+   "zh": "隧道跨度：",
+   "src": "approved",
+   "ns": [
+    "woldsvaults"
+   ],
+   "hits": 18
+  },
+  "04323adf26888160": {
+   "en": "\n Ability Power Range: ",
+   "zh": "\n 能力强度范围：",
+   "src": "approved",
+   "ns": [
+    "the_vault"
+   ],
+   "hits": 3
+  },
+  "0dde3ba2d190207c": {
+   "en": "You are not in a party!",
+   "zh": "你不在队伍中！",
+   "src": "approved",
+   "ns": [
+    "the_vault"
+   ],
+   "hits": 3
+  },
+  "0e1e91a41cbb7f1c": {
+   "en": "Together For...Some Time?",
+   "zh": "一起玩……一阵子？",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "0efbe80fd6665d02": {
+   "en": "Getting Up to Speed",
+   "zh": "快速上手",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "1998d74f6316e781": {
+   "en": "All Abilities",
+   "zh": "所有能力",
+   "src": "approved",
+   "ns": [
+    "vaultfilters"
+   ],
+   "hits": 6
+  },
+  "20443703f3eeb6d0": {
+   "en": "Choose the color to bet on ...",
+   "zh": "选择要下注的颜色……",
+   "src": "approved",
+   "ns": [
+    "casinocraft"
+   ],
+   "hits": 3
+  },
+  "26d3bdb0f142c2b3": {
+   "en": "Soul Value: ",
+   "zh": "灵魂价值：",
+   "src": "approved",
+   "ns": [
+    "the_vault",
+    "qolhunters"
+   ],
+   "hits": 6
+  },
+  "2d2b2b70c4b5d5c9": {
+   "en": "    Hard (Dwellers can throw bricks now)",
+   "zh": "    困难（居民现在会扔砖头了）",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "3807ada0ea9b8ea2": {
+   "en": "Natural Draw!",
+   "zh": "自然平局！",
+   "src": "approved",
+   "ns": [
+    "casinocraft"
+   ],
+   "hits": 3
+  },
+  "42620676c9e4ef86": {
+   "en": "You are not in a level sync team!",
+   "zh": "你不在等级同步小队中！",
+   "src": "approved",
+   "ns": [
+    "the_vault"
+   ],
+   "hits": 3
+  },
+  "44ca1211204e4667": {
+   "en": "A skeleton influenced by the space warp!",
+   "zh": "一具被空间扭曲影响的骷髅！",
+   "src": "approved",
+   "ns": [
+    "woldsvaults"
+   ],
+   "hits": 3
+  },
+  "46b58f3086a0b8e0": {
+   "en": "Bonus Chests",
+   "zh": "额外宝箱",
+   "src": "approved",
+   "ns": [
+    "vaultfilters"
+   ],
+   "hits": 3
+  },
+  "4968a14e79720381": {
+   "en": "     EXTREME (3x)",
+   "zh": "     极限（3 倍）",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "4a7a68cc53a626d6": {
+   "en": "\n Ability Power Per Stack: ",
+   "zh": "\n 每层能力强度：",
+   "src": "approved",
+   "ns": [
+    "the_vault"
+   ],
+   "hits": 3
+  },
+  "54d859c3a9fef482": {
+   "en": "     GRINDY (2x)",
+   "zh": "     肝度（2 倍）",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "5bcdf2ce53673b31": {
+   "en": "Surprise Bingo!",
+   "zh": "惊喜宾果！",
+   "src": "approved",
+   "ns": [
+    "woldsvaults"
+   ],
+   "hits": 3
+  },
+  "5ebb0cbdde6df7c0": {
+   "en": "    Piece of Cake",
+   "zh": "    小菜一碟",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "60a5dcd8486a25ed": {
+   "en": "     NORMAL (1x)",
+   "zh": "     普通（1 倍）",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "64b131da3541de2e": {
+   "en": "Want another card ...?",
+   "zh": "还要一张牌吗……？",
+   "src": "approved",
+   "ns": [
+    "casinocraft"
+   ],
+   "hits": 3
+  },
+  "6b710be88567f697": {
+   "en": "    Fragged",
+   "zh": "    碾碎",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "6bddc80e717c20f2": {
+   "en": "Big Changes, Little Changes...",
+   "zh": "大改动，小改动……",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "7d04dd714660a187": {
+   "en": "Chaining Attack",
+   "zh": "连锁攻击",
+   "src": "approved",
+   "ns": [
+    "vaultfilters"
+   ],
+   "hits": 3
+  },
+  "7f4c6880aab44cb3": {
+   "en": "&5Vaulting And You",
+   "zh": "&5宝库与你",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "81700c8f67f01393": {
+   "en": "Level sync is disabled!",
+   "zh": "等级同步已关闭！",
+   "src": "approved",
+   "ns": [
+    "the_vault"
+   ],
+   "hits": 3
+  },
+  "82788c47f00f1c6c": {
+   "en": "Gilded Chests looted",
+   "zh": "搜刮的鎏金宝箱数",
+   "src": "approved",
+   "ns": [
+    "vaultfilters"
+   ],
+   "hits": 3
+  },
+  "84a8c5281753ff9b": {
+   "en": "Hammer Size",
+   "zh": "锤击尺寸",
+   "src": "approved",
+   "ns": [
+    "vaultfilters"
+   ],
+   "hits": 3
+  },
+  "84da545889e62050": {
+   "en": "Attack Range",
+   "zh": "攻击范围",
+   "src": "approved",
+   "ns": [
+    "vaultfilters"
+   ],
+   "hits": 3
+  },
+  "8968d627ca10bb0b": {
+   "en": "Gear Piece",
+   "zh": "装备部件",
+   "src": "approved",
+   "ns": [
+    "vaultfilters"
+   ],
+   "hits": 3
+  },
+  "8981dc607adb7bfe": {
+   "en": "\n Ability Power: ",
+   "zh": "\n 能力强度：",
+   "src": "approved",
+   "ns": [
+    "the_vault"
+   ],
+   "hits": 3
+  },
+  "8cd435bf37363628": {
+   "en": "Assassins killed",
+   "zh": "击杀刺客数",
+   "src": "approved",
+   "ns": [
+    "vaultfilters"
+   ],
+   "hits": 3
+  },
+  "a201fcd5f7fbae05": {
+   "en": "So Much to Show You",
+   "zh": "有太多要展示给你",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "a437bf912ab0a83c": {
+   "en": "Awarded to: ",
+   "zh": "授予：",
+   "src": "approved",
+   "ns": [
+    "the_vault"
+   ],
+   "hits": 3
+  },
+  "a439ec2d9de2d355": {
+   "en": "Pushover or Punch God?",
+   "zh": "软柿子还是拳神？",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "ac62b0bd9af93443": {
+   "en": "And Here We Go...",
+   "zh": "那么，开始吧……",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "ae20d1393d88a65b": {
+   "en": "Have It Your Style",
+   "zh": "按你的风格来",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "bb3816e573e814df": {
+   "en": " This talent requires levels in the ability Nova.",
+   "zh": " 该天赋需要先在「新星」能力上投入等级。",
+   "src": "approved",
+   "ns": [
+    "woldsvaults"
+   ],
+   "hits": 3
+  },
+  "bcbc365771b55592": {
+   "en": "Effect Avoidance",
+   "zh": "效果规避",
+   "src": "approved",
+   "ns": [
+    "vaultfilters"
+   ],
+   "hits": 3
+  },
+  "be2785add466dcbf": {
+   "en": "choose cards to keep ...",
+   "zh": "选择要保留的牌……",
+   "src": "approved",
+   "ns": [
+    "casinocraft"
+   ],
+   "hits": 3
+  },
+  "bf7e5c322a3b3156": {
+   "en": "Click to accept!",
+   "zh": "点击接受！",
+   "src": "approved",
+   "ns": [
+    "the_vault"
+   ],
+   "hits": 6
+  },
+  "c2bc88a7f1081809": {
+   "en": "Boss Rune",
+   "zh": "首领符文",
+   "src": "approved",
+   "ns": [
+    "vaultfilters"
+   ],
+   "hits": 3
+  },
+  "c4bcde7ca8ea92aa": {
+   "en": "Hold an inscription.",
+   "zh": "请持有一枚铭刻。",
+   "src": "approved",
+   "ns": [
+    "the_vault"
+   ],
+   "hits": 3
+  },
+  "c5d2b9866c694852": {
+   "en": "Dwellers killed",
+   "zh": "击杀居民数",
+   "src": "approved",
+   "ns": [
+    "vaultfilters"
+   ],
+   "hits": 3
+  },
+  "c716c60ea00c4055": {
+   "en": "Time Trial competition is not available right now.",
+   "zh": "竞速比赛当前不可用。",
+   "src": "approved",
+   "ns": [
+    "woldsvaults"
+   ],
+   "hits": 3
+  },
+  "c96535f46d177b4e": {
+   "en": "Grind Those Levels",
+   "zh": "苦练等级",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "cc1e4eef130c423a": {
+   "en": "\n Ancient Chance: ",
+   "zh": "\n 远古概率：",
+   "src": "approved",
+   "ns": [
+    "the_vault"
+   ],
+   "hits": 3
+  },
+  "ccd8b00e70657179": {
+   "en": "\n\nLevel requirement: ",
+   "zh": "\n\n等级要求：",
+   "src": "approved",
+   "ns": [
+    "the_vault"
+   ],
+   "hits": 3
+  },
+  "ce8a160f00e5b0af": {
+   "en": "Attack Damage",
+   "zh": "攻击伤害",
+   "src": "approved",
+   "ns": [
+    "vaultfilters"
+   ],
+   "hits": 3
+  },
+  "d66c44dfdfa146a8": {
+   "en": "    Impossible",
+   "zh": "    不可能",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "d77657cfb86e6208": {
+   "en": "\n Attack Damage Per Stack: ",
+   "zh": "\n 每层攻击伤害：",
+   "src": "approved",
+   "ns": [
+    "the_vault"
+   ],
+   "hits": 3
+  },
+  "d7b24bf28d9e58e7": {
+   "en": "A nasty brew of chemicals to boost you and inflict upon your foes!",
+   "zh": "一瓶恶毒的化学药剂，强化自身并折磨敌人！",
+   "src": "approved",
+   "ns": [
+    "woldsvaults"
+   ],
+   "hits": 3
+  },
+  "d7c69a4e5d601842": {
+   "en": "Add another Bet ...?",
+   "zh": "再加一注……？",
+   "src": "approved",
+   "ns": [
+    "casinocraft"
+   ],
+   "hits": 3
+  },
+  "d97e1323331677d6": {
+   "en": "A flying space creature, oh no!",
+   "zh": "一只会飞的外太空生物，糟了！",
+   "src": "approved",
+   "ns": [
+    "woldsvaults"
+   ],
+   "hits": 3
+  },
+  "d9c4313051bcca98": {
+   "en": "You are not in a research-sharing team!",
+   "zh": "你不在共享研究的小队中！",
+   "src": "approved",
+   "ns": [
+    "the_vault"
+   ],
+   "hits": 3
+  },
+  "e52c309da3696d42": {
+   "en": "    Normal (Default)",
+   "zh": "    普通（默认）",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "f33d401006f73851": {
+   "en": "Attack Speed",
+   "zh": "攻击速度",
+   "src": "approved",
+   "ns": [
+    "vaultfilters"
+   ],
+   "hits": 3
+  },
+  "f6476a7022170da9": {
+   "en": "Discount!",
+   "zh": "打折！",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  },
+  "fc352dce7cfc4c1e": {
+   "en": "     INFINITY (no cost)",
+   "zh": "     无限（无消耗）",
+   "src": "import",
+   "ns": [],
+   "hits": 1
+  }
+ },
+ "ledger": {}
+}

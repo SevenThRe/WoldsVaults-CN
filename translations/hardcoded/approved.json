@@ -1,0 +1,53 @@
+{
+  "_comment": [
+    "硬编码人工确认白名单 —— 这是硬编码汉化的『人工闸门』。",
+    "CI 只会为 approved 里存在的条目生成 VaultPatcher 补丁，避免误伤代码里的日志/标识符。",
+    "工作流：先跑 `cli hardcoded-review` 生成 build/hardcoded-review.json，",
+    "人工挑条目搬到这里并填 zh，再跑 `cli build`。",
+    "键 = 英文原文（必须与 class 常量池里的字符串完全一致）。"
+  ],
+  "approved": {
+    "You are not in a party!": { "zh": "你不在队伍中！", "kind": "ui", "ns": "the_vault" },
+    "You are not in a level sync team!": { "zh": "你不在等级同步小队中！", "kind": "ui", "ns": "the_vault" },
+    "You are not in a research-sharing team!": { "zh": "你不在共享研究的小队中！", "kind": "ui", "ns": "the_vault" },
+    "Level sync is disabled!": { "zh": "等级同步已关闭！", "kind": "ui", "ns": "the_vault" },
+    "Click to accept!": { "zh": "点击接受！", "kind": "ui", "ns": "the_vault" },
+    "Hold an inscription.": { "zh": "请持有一枚铭刻。", "kind": "ui", "ns": "the_vault" },
+    "Awarded to: ": { "zh": "授予：", "kind": "ui", "ns": "the_vault" },
+    "Soul Value: ": { "zh": "灵魂价值：", "kind": "ui", "ns": "the_vault" },
+    "\n\nLevel requirement: ": { "zh": "\n\n等级要求：", "kind": "formatted", "ns": "the_vault" },
+    "\n Ability Power: ": { "zh": "\n 能力强度：", "kind": "formatted", "ns": "the_vault" },
+    "\n Ability Power Per Stack: ": { "zh": "\n 每层能力强度：", "kind": "formatted", "ns": "the_vault" },
+    "\n Ability Power Range: ": { "zh": "\n 能力强度范围：", "kind": "formatted", "ns": "the_vault" },
+    "\n Ancient Chance: ": { "zh": "\n 远古概率：", "kind": "formatted", "ns": "the_vault" },
+    "\n Attack Damage Per Stack: ": { "zh": "\n 每层攻击伤害：", "kind": "formatted", "ns": "the_vault" },
+
+    "Tunnel Span: ": { "zh": "隧道跨度：", "kind": "ui", "ns": "woldsvaults" },
+    "Time Trial competition is not available right now.": { "zh": "竞速比赛当前不可用。", "kind": "ui", "ns": "woldsvaults" },
+    "Surprise Bingo!": { "zh": "惊喜宾果！", "kind": "ui", "ns": "woldsvaults" },
+    " This talent requires levels in the ability Nova.": { "zh": " 该天赋需要先在「新星」能力上投入等级。", "kind": "ui", "ns": "woldsvaults" },
+    "A flying space creature, oh no!": { "zh": "一只会飞的外太空生物，糟了！", "kind": "ui", "ns": "woldsvaults" },
+    "A nasty brew of chemicals to boost you and inflict upon your foes!": { "zh": "一瓶恶毒的化学药剂，强化自身并折磨敌人！", "kind": "ui", "ns": "woldsvaults" },
+    "A skeleton influenced by the space warp!": { "zh": "一具被空间扭曲影响的骷髅！", "kind": "ui", "ns": "woldsvaults" },
+
+    "All Abilities": { "zh": "所有能力", "kind": "ui", "ns": "vaultfilters" },
+    "Attack Speed": { "zh": "攻击速度", "kind": "ui", "ns": "vaultfilters" },
+    "Attack Damage": { "zh": "攻击伤害", "kind": "ui", "ns": "vaultfilters" },
+    "Attack Range": { "zh": "攻击范围", "kind": "ui", "ns": "vaultfilters" },
+    "Bonus Chests": { "zh": "额外宝箱", "kind": "ui", "ns": "vaultfilters" },
+    "Boss Rune": { "zh": "首领符文", "kind": "ui", "ns": "vaultfilters" },
+    "Chaining Attack": { "zh": "连锁攻击", "kind": "ui", "ns": "vaultfilters" },
+    "Effect Avoidance": { "zh": "效果规避", "kind": "ui", "ns": "vaultfilters" },
+    "Gear Piece": { "zh": "装备部件", "kind": "ui", "ns": "vaultfilters" },
+    "Hammer Size": { "zh": "锤击尺寸", "kind": "ui", "ns": "vaultfilters" },
+    "Assassins killed": { "zh": "击杀刺客数", "kind": "ui", "ns": "vaultfilters" },
+    "Dwellers killed": { "zh": "击杀居民数", "kind": "ui", "ns": "vaultfilters" },
+    "Gilded Chests looted": { "zh": "搜刮的鎏金宝箱数", "kind": "ui", "ns": "vaultfilters" },
+
+    "Add another Bet ...?": { "zh": "再加一注……？", "kind": "ui", "ns": "casinocraft" },
+    "Choose the color to bet on ...": { "zh": "选择要下注的颜色……", "kind": "ui", "ns": "casinocraft" },
+    "Natural Draw!": { "zh": "自然平局！", "kind": "ui", "ns": "casinocraft" },
+    "Want another card ...?": { "zh": "还要一张牌吗……？", "kind": "ui", "ns": "casinocraft" },
+    "choose cards to keep ...": { "zh": "选择要保留的牌……", "kind": "ui", "ns": "casinocraft" }
+  }
+}

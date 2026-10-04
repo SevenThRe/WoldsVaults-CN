@@ -1,0 +1,50 @@
+# 构建产物
+/dist/
+/build/
+/output/
+*.zip
+
+# 模组缓存（CI 里由 actions/cache 管理，不入库）
+/.cache/
+
+# 本地产物
+*.local.json
+pack.lock.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 大体积基线（放 releases 或 LFS，不入库）
+/baseline/*.zip
+
+# cnrebase 工作区（整合包下载、探测脚本、日志）
+/work/
+
+# 汉化模板：仓库只存 15 MB 母版 jar，90 MB 解压目录现用现生成
+/templates/woldsvaults_cn-1.0.16/
+
+# 历史归档 / 第三方解压物 / 反编译缓存（体积大，不入库）
+/archive/
+/extras/
+/iskallia/
+/baseline/
+
+# 临时备份与脚本写盘残留
+*.bak
+*.bak-*
+*.tmp
+*.orig-bak
+*.py.bak
+*.local.properties
+
+# 下载器/安装器日志
+*.log
+
+# AI 工作日志（含会话过程，不对外）
+.workbuddy/
+
+# 译料层的临时补丁产物
+translations/cn-rebase/*.patch-*.tsv

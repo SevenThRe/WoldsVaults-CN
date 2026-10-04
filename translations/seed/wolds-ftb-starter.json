@@ -1,0 +1,25 @@
+{
+  "_comment": "任务书起步译稿（真实取自 Wold's Vaults 0.30.0 的 FTB 章节）。用 `cli import-memory translations/seed/wolds-ftb-starter.json` 灌入记忆库。",
+  "pairs": {
+    "&5Vaulting And You": "&5宝库与你",
+    "Getting Up to Speed": "快速上手",
+    "And Here We Go...": "那么，开始吧……",
+    "Grind Those Levels": "苦练等级",
+    "So Much to Show You": "有太多要展示给你",
+    "Big Changes, Little Changes...": "大改动，小改动……",
+    "Together For...Some Time?": "一起玩……一阵子？",
+    "Have It Your Style": "按你的风格来",
+    "Pushover or Punch God?": "软柿子还是拳神？",
+    "Discount!": "打折！",
+    "    Piece of Cake": "    小菜一碟",
+    "    Easy": "    简单",
+    "    Normal (Default)": "    普通（默认）",
+    "    Hard (Dwellers can throw bricks now)": "    困难（居民现在会扔砖头了）",
+    "    Impossible": "    不可能",
+    "    Fragged": "    碾碎",
+    "     INFINITY (no cost)": "     无限（无消耗）",
+    "     NORMAL (1x)": "     普通（1 倍）",
+    "     GRINDY (2x)": "     肝度（2 倍）",
+    "     EXTREME (3x)": "     极限（3 倍）"
+  }
+}

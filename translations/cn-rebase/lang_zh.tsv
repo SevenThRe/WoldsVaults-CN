@@ -1,0 +1,302 @@
+namespace	key	en	zh
+the_vault	block.compressium.vault_cobblestone_1	Compressed Vault Cobblestone (1x)	1 重压缩宝库圆石
+the_vault	block.compressium.vault_cobblestone_2	Compressed Vault Cobblestone (2x)	2 重压缩宝库圆石
+the_vault	block.compressium.vault_cobblestone_3	Compressed Vault Cobblestone (3x)	3 重压缩宝库圆石
+the_vault	block.compressium.vault_cobblestone_4	Compressed Vault Cobblestone (4x)	4 重压缩宝库圆石
+the_vault	block.compressium.vault_cobblestone_5	Compressed Vault Cobblestone (5x)	5 重压缩宝库圆石
+the_vault	block.compressium.vault_cobblestone_6	Compressed Vault Cobblestone (6x)	6 重压缩宝库圆石
+the_vault	block.compressium.vault_cobblestone_7	Compressed Vault Cobblestone (7x)	7 重压缩宝库圆石
+the_vault	block.compressium.vault_cobblestone_8	Compressed Vault Cobblestone (8x)	8 重压缩宝库圆石
+the_vault	block.compressium.vault_cobblestone_9	Compressed Vault Cobblestone (9x)	9 重压缩宝库圆石
+the_vault	effect.the_vault.battle_trance	Battle Trance	战斗恍惚
+the_vault	gamerule.vaultTemplateCacheIdleSeconds	Vault Template Cache Idle Seconds	宝库模板缓存空闲秒数
+the_vault	gamerule.vaultTemplateCacheIdleSeconds.description	Seconds before an unused processed vault template cache entry is evicted. Set to 0 to disable idle eviction	未使用的已处理宝库模板缓存条目在经过多少秒后被清除。设为 0 可禁用空闲清除
+the_vault	item.the_vault.blood_horde_egg	Rockling Egg	岩石小怪蛋
+the_vault	item.the_vault.blood_skeleton_egg	Ashen Skeleton Egg	灰烬骷髅蛋
+the_vault	item.the_vault.cave_skeleton_egg	Cave Skeleton Egg	洞穴骷髅蛋
+the_vault	item.the_vault.creeper_egg	Vault Creeper Egg	宝库苦力怕蛋
+the_vault	item.the_vault.drowned_egg	Vault Drowned Egg	宝库溺尸蛋
+the_vault	item.the_vault.enderman_egg	Vault Enderman Egg	宝库末影人蛋
+the_vault	item.the_vault.husk_egg	Vault Husk Egg	宝库尸壳蛋
+the_vault	item.the_vault.miner_zombie_egg	Miner Zombie Egg	矿工僵尸蛋
+the_vault	item.the_vault.mummy_egg	Mummy Egg	木乃伊蛋
+the_vault	item.the_vault.mushroom_egg	Mushroom Egg	蘑菇蛋
+the_vault	item.the_vault.overgrown_woodman_egg	Overgrown Woodman Egg	蔓生木人蛋
+the_vault	item.the_vault.overgrown_zombie_egg	Overgrown Zombie Egg	藤蔓僵尸蛋
+the_vault	item.the_vault.piglin_egg	Vault Piglin Egg	宝库猪灵蛋
+the_vault	item.the_vault.plastic_horde_egg	Plastic Horde Egg	塑料集群蛋
+the_vault	item.the_vault.plastic_skeleton_egg	Plastic Skeleton Egg	塑料骷髅蛋
+the_vault	item.the_vault.plastic_slime_egg	Plastic Slime Egg	塑料史莱姆蛋
+the_vault	item.the_vault.plastic_zombie_egg	Plastic Zombie Egg	塑料僵尸蛋
+the_vault	item.the_vault.skeleton_egg	Vault Skeleton Egg	宝库骷髅蛋
+the_vault	item.the_vault.skeleton_pirate_egg	Skeleton Pirate Egg	骷髅海盗蛋
+the_vault	item.the_vault.stray_egg	Vault Stray Egg	宝库流浪者蛋
+the_vault	item.the_vault.vault_fighter_egg	Dweller Egg	宝库居民蛋
+the_vault	item.the_vault.vault_hostile_egg	Vault Hostile Egg	宝库敌对生物蛋
+the_vault	item.the_vault.vault_spider_egg	Vault Spider Egg	宝库蜘蛛蛋
+the_vault	item.the_vault.wild_west_hand_cannon	Wild West Hand Cannon	狂野西部手持炮
+the_vault	item.the_vault.winterwalker_egg	Winterwalker Egg	冬行者蛋
+the_vault	item.the_vault.wither_skeleton_egg	Vault Wither Skeleton Egg	宝库凋灵骷髅蛋
+the_vault	item.the_vault.zombie_egg	Vault Zombie Egg	宝库僵尸蛋
+woldsvaults	block.woldsvaults.deco_god_altar_idona	God Altar (Idona - Decorative)	神明祭坛（伊多娜 - 装饰）
+woldsvaults	block.woldsvaults.deco_god_altar_tenos	God Altar (Tenos - Decorative)	神明祭坛（特诺斯 - 装饰）
+woldsvaults	block.woldsvaults.deco_god_altar_velara	God Altar (Velara - Decorative)	神明祭坛（维拉拉 - 装饰）
+woldsvaults	block.woldsvaults.deco_god_altar_wendarr	God Altar (Wendarr - Decorative)	神明祭坛（温达尔 - 装饰）
+woldsvaults	block.woldsvaults.locked_treasure_container	Locked Treasure Chest	上锁的宝藏宝箱
+woldsvaults	block.woldsvaults.vault_crate_hyper	Hyper Vault Crate	亢奋宝库宝箱
+woldsvaults	block.woldsvaults.vault_crate_unhinged_scavenger_bingo	Unhinged Scavenger Bingo Vault Crate	失控拾荒宾果宝库宝箱
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.god_alignment.intro.text	**Purpose:** Commune with the [#](00FF00)Vault Gods[#]()	**用途：**与[#](00FF00)宝库神明[#]()沟通
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.god_alignment.intro.title	Quaddeus Alignment	四神共鸣
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.god_alignment.name	Quaddeus Alignment	四神共鸣
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.god_alignment.uses.title	Uses	用途
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.idona.intro.text	**Purpose:** Commune with [#](00FF00)Idona[#]()	**用途：**与[#](00FF00)伊多娜[#]()沟通
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.idona.intro.title	Idona's Battlefield	伊多娜的战场
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.idona.name	Idona's Battlefield	伊多娜的战场
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.idona.uses.title	Uses	用途
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.tenos.intro.text	**Purpose:** Commune with [#](00FF00)Tenos[#]()	**用途：**与[#](00FF00)特诺斯[#]()沟通
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.tenos.intro.title	Tenos' Library	特诺斯的图书馆
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.tenos.name	Tenos' Library	特诺斯的图书馆
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.tenos.uses.title	Uses	用途
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.velara.intro.text	**Purpose:** Commune with [#](00FF00)Velara[#]()	**用途：**与[#](00FF00)维拉拉[#]()沟通
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.velara.intro.title	Velara's Grove	维拉拉的林苑
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.velara.name	Velara's Grove	维拉拉的林苑
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.velara.uses.title	Uses	用途
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.wendarr.intro.text	**Purpose:** Commune with [#](00FF00)Wendarr[#]()	**用途：**与[#](00FF00)温达尔[#]()沟通
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.wendarr.intro.title	Wendarr's Study	温达尔的书房
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.wendarr.name	Wendarr's Study	温达尔的书房
+woldsvaults	book.occultism.dictionary_of_spirits.pentacles.wendarr.uses.title	Uses	用途
+woldsvaults	death.attack.woldsvaults.magic_missile	%1$s was blown apart by %2$s's Magic Missile	%1$s被%2$s的魔法飞弹炸得粉碎
+woldsvaults	deck.woldsvaults.adjacency_type_above	above	上方
+woldsvaults	deck.woldsvaults.adjacency_type_adjacent	adjacent	相邻
+woldsvaults	deck.woldsvaults.adjacency_type_below	below	下方
+woldsvaults	deck.woldsvaults.adjacency_type_column	column	整列
+woldsvaults	deck.woldsvaults.adjacency_type_left	left	左侧
+woldsvaults	deck.woldsvaults.adjacency_type_right	right	右侧
+woldsvaults	deck.woldsvaults.adjacency_type_row	row	整行
+woldsvaults	effect.the_vault.bleed	Bleed	流血
+woldsvaults	effect.the_vault.bountiful_harvest	Bountiful Harvest	丰收
+woldsvaults	effect.the_vault.treasure_seeker	Treasure Seeker	宝藏搜寻者
+woldsvaults	effect.woldsvaults.armored	Armored	披甲
+woldsvaults	effect.woldsvaults.blitz	Blitz	闪击
+woldsvaults	effect.woldsvaults.blood_chakra	Blood Chakra	血之查克拉
+woldsvaults	effect.woldsvaults.momentum_engine	Momentum Engine	动量引擎
+woldsvaults	effect.woldsvaults.shredded	Shredded	撕裂
+woldsvaults	effect.woldsvaults.steadfast	Steadfast	坚毅
+woldsvaults	effect.woldsvaults.ultimate_shield	Ultimate Shield	至尊护盾
+woldsvaults	entity.the_vault.necromancy_bolt	Necromancy Bolt	死灵飞弹
+woldsvaults	entity.the_vault.necromancy_golem	Golem Minion	傀儡仆从
+woldsvaults	entity.the_vault.necromancy_skeleton	Skeleton Minion	骷髅仆从
+woldsvaults	entity.woldsvaults.magic_missile	Magic Missile	魔法飞弹
+woldsvaults	gas.woldsvaults.lead_gas	Gaseous Lead	气态铅
+woldsvaults	gui.woldsvaults.jei.mekanism_modification_station	Modification Station	改造站
+woldsvaults	item.woldsvaults.blue_vault_essence	Blue Vault Essence	蓝色宝库精华
+woldsvaults	item.woldsvaults.concealed_chaos	Concealed Chaos	隐秘混沌
+woldsvaults	item.woldsvaults.concentrated_void	Concentrated Void	浓缩虚空
+woldsvaults	item.woldsvaults.core_of_the_vault_gods	Core of the Vault Gods	宝库神之核
+woldsvaults	item.woldsvaults.crystal_seal_unhinged_scavingo	Seal of the Senseless Scavingo	无脑拾荒宾果印记
+woldsvaults	item.woldsvaults.gods_mastery	God's Mastery	神明精通
+woldsvaults	item.woldsvaults.greed_neuralizer	Greed Infused Neuralizer	贪婪灌注记忆消除器
+woldsvaults	item.woldsvaults.greedy_ticket	Greedy Ticket	贪婪票券
+woldsvaults	item.woldsvaults.green_vault_essence	Green Vault Essence	绿色宝库精华
+woldsvaults	item.woldsvaults.infused_augment	Infused Augment	灌注增幅器
+woldsvaults	item.woldsvaults.inscribing_focus	Inscribing Focus	铭刻聚焦器
+woldsvaults	item.woldsvaults.lead_dye_base	Lead Dye Base	铅染料基底
+woldsvaults	item.woldsvaults.ritual_dummy.any_inscription	Ritual: Tenos Any Inscription	仪式：特诺斯·任意铭刻
+woldsvaults	item.woldsvaults.ritual_dummy.any_inscription.tooltip	Make an offering to Tenos to inscribe the knowledge of a random room on to your Vault Crystal and add a random curse... moderate chance to make crystal unmodifiable.	向特诺斯献上供品，将随机房间的知识铭刻到你的宝库水晶上，并附加一个随机诅咒……有中等概率使水晶无法被修改。
+woldsvaults	item.woldsvaults.ritual_dummy.challenge_inscription	Ritual: Tenos Challenge Inscription	仪式：特诺斯·挑战铭刻
+woldsvaults	item.woldsvaults.ritual_dummy.challenge_inscription.tooltip	Make an offering to Tenos to inscribe the knowledge of a random Challenge room on to your Vault Crystal and add a random curse... high chance to make crystal unmodifiable.	向特诺斯献上供品，将随机挑战房间的知识铭刻到你的宝库水晶上，并附加一个随机诅咒……有高概率使水晶无法被修改。
+woldsvaults	item.woldsvaults.ritual_dummy.companion_revival	Ritual: Companion Revival	仪式：伙伴复生
+woldsvaults	item.woldsvaults.ritual_dummy.companion_revival.tooltip	Make an offering to Velara and they will bring your friend back to life!	向维拉拉献上供品，她会让你的伙伴复生！
+woldsvaults	item.woldsvaults.ritual_dummy.craft_idona_bricks	Ritual: Convert Bricks - Idona	仪式：转化砖块 - 伊多娜
+woldsvaults	item.woldsvaults.ritual_dummy.craft_idona_bricks.tooltip	A way to craft Idona's lovely decorative bricks without vault delving!	无需探索宝库，也能制作伊多娜漂亮的装饰砖！
+woldsvaults	item.woldsvaults.ritual_dummy.craft_tenos_bricks	Ritual: Convert Bricks - Tenos	仪式：转化砖块 - 特诺斯
+woldsvaults	item.woldsvaults.ritual_dummy.craft_tenos_bricks.tooltip	A way to craft Tenos' lovely decorative bricks without vault delving!	无需探索宝库，也能制作特诺斯漂亮的装饰砖！
+woldsvaults	item.woldsvaults.ritual_dummy.craft_velara_bricks	Ritual: Convert Bricks - Velara	仪式：转化砖块 - 维拉拉
+woldsvaults	item.woldsvaults.ritual_dummy.craft_velara_bricks.tooltip	A way to craft Velara's lovely decorative bricks without vault delving!	无需探索宝库，也能制作维拉拉漂亮的装饰砖！
+woldsvaults	item.woldsvaults.ritual_dummy.craft_wendarr_bricks	Ritual: Convert Bricks - Wendarr	仪式：转化砖块 - 温达尔
+woldsvaults	item.woldsvaults.ritual_dummy.craft_wendarr_bricks.tooltip	A way to craft Wendarr's lovely decorative bricks without vault delving!	无需探索宝库，也能制作温达尔漂亮的装饰砖！
+woldsvaults	item.woldsvaults.ritual_dummy.crystal_time_extension	Ritual: Wendarr Time Extension	仪式：温达尔·时间延长
+woldsvaults	item.woldsvaults.ritual_dummy.crystal_time_extension.tooltip	Make an offering to Wendarr for them to bless your vault with Extended time... and a curse! After 7 Extended have been added this way, makes crystal unmodifiable.	向温达尔献上供品，请求祂为你的宝库赐下时间延长……以及一个诅咒！以此方式叠加 7 次延长后，水晶将无法被修改。
+woldsvaults	item.woldsvaults.ritual_dummy.god_mastery	Ritual: God Mastery	仪式：神明精通
+woldsvaults	item.woldsvaults.ritual_dummy.god_mastery.tooltip	Make a truly impressive offering to the Vault Gods and they will gain an increased interest in you!	向宝库神明献上真正丰厚的供品，祂们会对你产生更大的兴趣！
+woldsvaults	item.woldsvaults.ritual_dummy.omega_inscription	Ritual: Tenos Omega Inscription	仪式：特诺斯·欧米伽铭刻
+woldsvaults	item.woldsvaults.ritual_dummy.omega_inscription.tooltip	Make an offering to Tenos to inscribe the knowledge of a random Omega room on to your Vault Crystal and add a random curse... very high chance to make crystal unmodifiable.	向特诺斯献上供品，将随机欧米伽房间的知识铭刻到你的宝库水晶上，并附加一个随机诅咒……有极高概率使水晶无法被修改。
+woldsvaults	item.woldsvaults.ritual_dummy.random_god_theme	Ritual: Random God Theme Augment	仪式：随机神主题增幅器
+woldsvaults	item.woldsvaults.ritual_dummy.random_god_theme.tooltip	Make an offering to the Gods and they will grant you an Augment of their theme! (Offering type does not decide theme)	向诸神献上供品，祂们会赐予你一枚对应主题的增幅器！（供品种类不决定主题）
+woldsvaults	item.woldsvaults.ritual_dummy.random_zealot_vault	Ritual: Zealot	仪式：狂热者
+woldsvaults	item.woldsvaults.ritual_dummy.random_zealot_vault.tooltip	Make an offering to the Gods and they will bless and challenge your Vault Crystal. Crystal must be unmodified. (Any type/arrangement of God Offering item will work!)	向诸神献上供品，祂们会为你的宝库水晶赐福并发起挑战。水晶必须未经修改。（任何种类或排列的神明供品物品都可以！）
+woldsvaults	item.woldsvaults.ritual_dummy.red_vault_essence	Ritual: Create Red Vault Essence	仪式：创造红色宝库精华
+woldsvaults	item.woldsvaults.ritual_dummy.red_vault_essence.tooltip	Make an offering to Idona and they will enchant your Vault Essence with their strength!	向伊多娜献上供品，祂会用祂的力量为你的宝库精华注入魔力！
+woldsvaults	item.woldsvaults.ritual_dummy.resource_inscription	Ritual: Tenos Resource Inscription	仪式：特诺斯·资源铭刻
+woldsvaults	item.woldsvaults.ritual_dummy.resource_inscription.tooltip	Make an offering to Tenos to inscribe the knowledge of a random Resource room on to your Vault Crystal and add a random curse... low chance to make crystal unmodifiable.	向特诺斯献上供品，将随机资源房间的知识铭刻到你的宝库水晶上，并附加一个随机诅咒……有低概率使水晶无法被修改。
+woldsvaults	item.woldsvaults.ritual_dummy.sacrifice_companion	Ritual: Sacrifice Companion	仪式：献祭伙伴
+woldsvaults	item.woldsvaults.ritual_dummy.sacrifice_companion.tooltip	Sacrifice a Companion to Idona and he will reward you with a random Companion Relic!	向伊多娜献祭一位伙伴，祂会以一件随机的伙伴遗物作为回报！
+woldsvaults	item.woldsvaults.ritual_dummy.spawn_egg_infusion	Ritual: Imbue Spawn Egg	仪式：灌注刷怪蛋
+woldsvaults	item.woldsvaults.ritual_dummy.spawn_egg_infusion.tooltip	Imbue a Mystery Egg with life to transform it into a specific type of spawn egg! Note: The sacrificial mob must be present when activating the ritual!	为神秘蛋注入生命，将它转化为特定类型的刷怪蛋！注意：启动仪式时，被献祭的生物必须在场！
+woldsvaults	item.woldsvaults.yellow_vault_essence	Yellow Vault Essence	黄色宝库精华
+woldsvaults	jei.the_vault.completion_crate_chaos_loot	Chaos Completion Crate	混沌完成宝箱
+woldsvaults	jei.the_vault.completion_crate_hyper_loot	Hyper Crate	亢奋宝箱
+woldsvaults	jei.the_vault.treasure_chest_idona_loot	Treasure Chest (Idona)	宝藏宝箱（伊多娜）
+woldsvaults	jei.the_vault.treasure_chest_idona_map_loot	Treasure Chest (Idona - Map)	宝藏宝箱（伊多娜 - 地图）
+woldsvaults	jei.the_vault.treasure_chest_tenos_loot	Treasure Chest (Tenos)	宝藏宝箱（特诺斯）
+woldsvaults	jei.the_vault.treasure_chest_tenos_map_loot	Treasure Chest (Tenos - Map)	宝藏宝箱（特诺斯 - 地图）
+woldsvaults	jei.the_vault.treasure_chest_velara_loot	Treasure Chest (Velara)	宝藏宝箱（维拉拉）
+woldsvaults	jei.the_vault.treasure_chest_velara_map_loot	Treasure Chest (Velara - Map)	宝藏宝箱（维拉拉 - 地图）
+woldsvaults	jei.the_vault.treasure_chest_wendarr_loot	Treasure Chest (Wendarr)	宝藏宝箱（温达尔）
+woldsvaults	jei.the_vault.treasure_chest_wendarr_map_loot	Treasure Chest (Wendarr - Map)	宝藏宝箱（温达尔 - 地图）
+woldsvaults	jei.the_vault.trove_sand_loot	Trove Sand	珍宝沙
+woldsvaults	jei.the_vault.trove_sand_map_loot	Trove Sand (Map)	珍宝沙（地图）
+woldsvaults	key.the_vault.quickselect.fangs	Select and use ability: Fangs	选择并使用技能：尖牙
+woldsvaults	key.the_vault.quickselect.necromancy	Select and use ability: Necromancy	选择并使用技能：死灵术
+woldsvaults	key.the_vault.quickselect.ultimate_shield	Select and use ability: Ultimate Shield	选择并使用技能：至尊护盾
+woldsvaults	key.woldsvaults.configure_trinket	Configure Hovered Trinket	配置光标所指的饰品
+woldsvaults	message.woldsvaults.theme_infusion_message	This vault is overflowing with powerful energy!	这座宝库中涌动着强大的能量！
+woldsvaults	multiblock.occultism.god_alignment	Quaddeus Alignment	四神共鸣
+woldsvaults	multiblock.occultism.idona	Idona's Battlefield	伊多娜的战场
+woldsvaults	multiblock.occultism.tenos	Tenos' Library	特诺斯的图书馆
+woldsvaults	multiblock.occultism.velara	Velara's Grove	维拉拉的林苑
+woldsvaults	multiblock.occultism.wendarr	Wendarr's Study	温达尔的书房
+woldsvaults	objective.the_vault.hyper	Hyper	亢奋
+woldsvaults	objective.the_vault.unhinged_scavenger_bingo	Unhinged Collector	失控收集者
+woldsvaults	objective.woldsvaults.hyper	Hyper	亢奋
+woldsvaults	objective.woldsvaults.unhinged_scavenger_bingo	Unhinged Collector	失控收集者
+woldsvaults	pentacle.occultism.god_alignment	Quaddeus Alignment	四神共鸣
+woldsvaults	pentacle.occultism.idona	Idona's Battlefield	伊多娜的战场
+woldsvaults	pentacle.occultism.tenos	Tenos' Library	特诺斯的图书馆
+woldsvaults	pentacle.occultism.velara	Velara's Grove	维拉拉的林苑
+woldsvaults	pentacle.occultism.wendarr	Wendarr's Study	温达尔的书房
+woldsvaults	pigment.woldsvaults.card_paint_base	Card Paint Base	卡牌颜料基底
+woldsvaults	pigment.woldsvaults.card_paint_blue	Blue Card Paint	蓝色卡牌颜料
+woldsvaults	pigment.woldsvaults.card_paint_green	Green Card Paint	绿色卡牌颜料
+woldsvaults	pigment.woldsvaults.card_paint_red	Red Card Paint	红色卡牌颜料
+woldsvaults	pigment.woldsvaults.card_paint_yellow	Yellow Card Paint	黄色卡牌颜料
+woldsvaults	pigment.woldsvaults.foil_pigment	Card Foil Coating	卡牌闪镀层
+woldsvaults	pigment.woldsvaults.idona_red	Idona Red Pigment	伊多娜红颜料
+woldsvaults	pigment.woldsvaults.tenos_blue	Tenos Blue Pigment	特诺斯蓝颜料
+woldsvaults	pigment.woldsvaults.velara_green	Velara Green Pigment	维拉拉绿颜料
+woldsvaults	pigment.woldsvaults.void_pigment	Void Coating	虚空镀层
+woldsvaults	pigment.woldsvaults.wendarr_yellow	Wendarr Yellow Pigment	温达尔黄颜料
+woldsvaults	ritual.woldsvaults.companion_revival.finished	Companion Revival completed!	伙伴复生完成！
+woldsvaults	ritual.woldsvaults.companion_revival.started	Companion Revival initiated!	伙伴复生开始！
+woldsvaults	ritual.woldsvaults.companion_sacrifice.finished	Sacrifice Companion completed!	献祭伙伴完成！
+woldsvaults	ritual.woldsvaults.companion_sacrifice.started	Sacrifice Companion initiated!	献祭伙伴开始！
+woldsvaults	ritual.woldsvaults.create_red_essence.finished	Create Red Vault Essence completed!	创造红色宝库精华完成！
+woldsvaults	ritual.woldsvaults.create_red_essence.started	Create Red Vault Essence initiated!	创造红色宝库精华开始！
+woldsvaults	ritual.woldsvaults.god_mastery.finished	God Mastery completed!	神明精通完成！
+woldsvaults	ritual.woldsvaults.god_mastery.started	God Mastery initiated!	神明精通开始！
+woldsvaults	ritual.woldsvaults.idona_bricks.finished	Convert Bricks - Idona completed!	转化砖块 - 伊多娜完成！
+woldsvaults	ritual.woldsvaults.idona_bricks.started	Convert Bricks - Idona initiated!	转化砖块 - 伊多娜开始！
+woldsvaults	ritual.woldsvaults.infuse_axolotl_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_axolotl_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_axolotl_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_bat_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_bat_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_bat_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_bee_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_bee_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_bee_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_cat_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_cat_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_cat_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_chicken_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_chicken_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_chicken_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_cod_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_cod_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_cod_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_cow_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_cow_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_cow_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_dolphin_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_dolphin_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_dolphin_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_donkey_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_donkey_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_donkey_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_drygmy_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_drygmy_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_drygmy_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_flutter_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_flutter_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_flutter_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_frog_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_frog_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_frog_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_glow_squid_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_glow_squid_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_glow_squid_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_goat_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_goat_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_goat_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_mooshroom_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_mooshroom_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_mooshroom_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_panda_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_panda_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_panda_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_parrot_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_parrot_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_parrot_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_pig_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_pig_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_polar_bear_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_polar_bear_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_polar_bear_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_pufferfish_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_pufferfish_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_pufferfish_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_rabbit_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_rabbit_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_rabbit_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_salmon_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_salmon_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_salmon_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_sheep_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_sheep_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_sheep_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_squid_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_squid_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_squid_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_starbuncle_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_starbuncle_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_starbuncle_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_strider_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_strider_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_strider_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_toretoise_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_toretoise_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_toretoise_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_tropical_fish_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_tropical_fish_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_tropical_fish_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_turtle_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_turtle_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_turtle_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.infuse_whirlisprig_spawn_egg.finished	Imbue Spawn Egg completed!	灌注刷怪蛋完成！
+woldsvaults	ritual.woldsvaults.infuse_whirlisprig_spawn_egg.interrupted	Imbue Spawn Egg interrupted!	灌注刷怪蛋中断！
+woldsvaults	ritual.woldsvaults.infuse_whirlisprig_spawn_egg.started	Imbue Spawn Egg initiated!	灌注刷怪蛋开始！
+woldsvaults	ritual.woldsvaults.random_god_theme_augment.finished	Random God Theme Augment completed!	随机神主题增幅器完成！
+woldsvaults	ritual.woldsvaults.random_god_theme_augment.started	Random God Theme Augment initiated!	随机神主题增幅器开始！
+woldsvaults	ritual.woldsvaults.random_zealot_vault.finished	Zealot completed!	狂热者完成！
+woldsvaults	ritual.woldsvaults.random_zealot_vault.started	Zealot initiated!	狂热者开始！
+woldsvaults	ritual.woldsvaults.tenos_any_inscription.finished	Tenos Any Inscription completed!	特诺斯·任意铭刻完成！
+woldsvaults	ritual.woldsvaults.tenos_any_inscription.started	Tenos Any Inscription initiated!	特诺斯·任意铭刻开始！
+woldsvaults	ritual.woldsvaults.tenos_bricks.finished	Convert Bricks - Tenos completed!	转化砖块 - 特诺斯完成！
+woldsvaults	ritual.woldsvaults.tenos_bricks.started	Convert Bricks - Tenos initiated!	转化砖块 - 特诺斯开始！
+woldsvaults	ritual.woldsvaults.tenos_challenge_inscription.finished	Tenos Challenge Inscription completed!	特诺斯·挑战铭刻完成！
+woldsvaults	ritual.woldsvaults.tenos_challenge_inscription.started	Tenos Challenge Inscription initiated!	特诺斯·挑战铭刻开始！
+woldsvaults	ritual.woldsvaults.tenos_omega_inscription.finished	Tenos Resource Inscription completed!	特诺斯·资源铭刻完成！
+woldsvaults	ritual.woldsvaults.tenos_omega_inscription.started	Tenos Resource Inscription initiated!	特诺斯·资源铭刻开始！
+woldsvaults	ritual.woldsvaults.velara_bricks.finished	Convert Bricks - Velara completed!	转化砖块 - 维拉拉完成！
+woldsvaults	ritual.woldsvaults.velara_bricks.started	Convert Bricks - Velara initiated!	转化砖块 - 维拉拉开始！
+woldsvaults	ritual.woldsvaults.wendarr_bricks.finished	Convert Bricks - Wendarr completed!	转化砖块 - 温达尔完成！
+woldsvaults	ritual.woldsvaults.wendarr_bricks.started	Convert Bricks - Wendarr initiated!	转化砖块 - 温达尔开始！
+woldsvaults	ritual.woldsvaults.wendarr_crystal_time_extension.finished	Wendarr Time Extension completed!	温达尔·时间延长完成！
+woldsvaults	ritual.woldsvaults.wendarr_crystal_time_extension.started	Wendarr Time Extension initiated!	温达尔·时间延长开始！
+woldsvaults	the_vault.gear_modification.reforge_map_tier.description	Increases tier of Vault Map	提升宝库地图的阶级
+woldsvaults	the_vault.gear_modification.reforge_map_tier.max_map_tier	Map has the max tier	地图已达最高阶级
+woldsvaults	the_vault.gear_modification.reforge_map_tier.no_modifiers	There is no Map Tier to increase	没有可提升的地图阶级
+woldsvaults	unlock_goal.woldsvaults.underwater_theme	You ponder the thought of an entire vault under the sea...	你想象着一座沉没在海底的宝库……
+woldsvaults	vault_event.woldsvaults.cloudstorage_event	Forecast - Cloudy	预报 - 多云
+woldsvaults	vault_event.woldsvaults.cloudstorage_event_description	Spawns angry cloud(s) to assault you!	生成愤怒的云来袭击你！
+kubejs	itemGroup.kubejs	KubeJS	KubeJS
