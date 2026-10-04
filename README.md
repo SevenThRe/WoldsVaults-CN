@@ -30,8 +30,8 @@
 3. Windows 双击 `install.bat`（Linux/Mac 先 `chmod +x install.sh` 再执行）。
 4. 脚本会下载官方服务端包（约 638 MB）并校验 MD5，然后把汉化层覆盖进去。若下载失败，脚本会提示你手动把 `official-wolds-vaults-server-pack-0-34-1.zip` 放到同一目录后重跑。
 5. 完成后：
-   - 想开**常规服**，直接用 `server.properties`；
-   - 想开**硬核服**，把 `server.properties.hardcore` 改名为 `server.properties` 覆盖它。
+   - 想开**常规服（默认）**，直接用 `server.properties`；
+   - 想开**天空宝库（Sky Vaults）**，把 `server.properties.skyblock` 复制为 `server.properties` 覆盖它（详见包内 `SERVER-PRESETS.txt`）。
 6. `eula.txt` 已预置为 `eula=true`。**运行代表你已阅读并同意 [Mojang EULA](https://aka.ms/MinecraftEULA)。**
 7. 启动：`run.bat` / `run.sh`（由官方服务端包自带），首次启动会生成世界，耗时几分钟。
 
