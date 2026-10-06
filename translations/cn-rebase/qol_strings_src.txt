@@ -1,0 +1,167 @@
+Ability Duration Overlay	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Ability Multicast	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Add search box to vault stations	QOLHuntersClientConfigs
+Adds keybinds to craft/forge/reroll in the Bounty Table, Enchanter, Vault Forge, etc	QOLHuntersClientConfigs
+Adds roll ranges to resource cards when holding shift	QOLHuntersClientConfigs
+Adds text overlays to the Vault modifiers, e.g. '+10% Damage' or 'Speed +1'	QOLHuntersClientConfigs
+Adds toggles to prestige selection screen	QOLHuntersClientConfigs
+Allows you to cast multiple abilities with a single keybind	QOLHuntersClientConfigs
+Artisan Gear Tooltip requires Shift	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Ascension Crystal Ember Grant Amount	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Ascension Vaults	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Autochosen Jewel	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Autochosen Weight	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Automatically adjust greed trader offer size based on offer count and available space.	QOLHuntersClientConfigs
+Automatically open the next booster pack in your inventory after you select a card	QOLHuntersClientConfigs
+Automatically open the next jewel pouch in your inventory after you select a jewel	QOLHuntersClientConfigs
+Automatically select the next antique in your inventory after you open one	QOLHuntersClientConfigs
+Autoswap to the correct treasure key when you right-click a treasure door with another key as long as the correct key is in your main inventory	QOLHuntersClientConfigs
+Better Abilities Tab	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Better Bingo Descriptions	QOLHuntersClientConfigs$ConfigPaths
+Better Card Deck Screen	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Better Jewel Application Screen	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Better Loot Stats	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Better Screens	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Better Soul Value Tooltips	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Bingo Vaults	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Brazier Vaults	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Cake Vault Overlay Color	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Cake Vault Overlay Style	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Cake Vaults	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Chain Antiques	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Chain Booster Packs	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Chain Jewel Pouches	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Challenger Rock Ember Grant Amount	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Changes the X offset of the God Objective	QOLHuntersClientConfigs
+Changes the X offset of the God Objective\nDefined as % of screen width	QOLHuntersClientConfigs
+Changes the Y offset of the God Objective	QOLHuntersClientConfigs
+Changes the Y offset of the God Objective\nDefined as % of screen height	QOLHuntersClientConfigs
+Changes the color of the Bingo Grid completion overlay	QOLHuntersClientConfigs
+Changes the color of the Bingo Grid selection overlay	QOLHuntersClientConfigs
+Changes the color of the Vault Cake overlay	QOLHuntersClientConfigs
+Changes the opacity (%) of the Bingo Grid background	QOLHuntersClientConfigs
+Changes the style of the Vault Cake overlay	QOLHuntersClientConfigs
+Choose CYLINDER to encompass the full height of the map	QOLHuntersClientConfigs
+Choose SPHERE for a sphere defined around the chosen block position.	QOLHuntersClientConfigs
+Client-Only Extensions	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Common+ Gear	QOLHuntersClientConfigs
+Debug option - should stay enabled normally.	QOLHuntersClientConfigs
+Defined as % of screen height	QOLHuntersClientConfigs
+Defined as % of screen width	QOLHuntersClientConfigs
+Dehammerizer Mode	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Dehammerizer Range	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Drops identified jewels from overstacked pouches instead of weirdly shuffling them in your inv	QOLHuntersClientConfigs
+Drops identified jewels from overstacked pouches instead of weirdly shuffling them in your inv \nDebug option - should stay enabled normally.	QOLHuntersClientConfigs
+Dynamic Hologram Scale	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Elixir Orb Culling	QOLHuntersClientConfigs$ConfigPaths
+Elixir Vaults	QOLHuntersClientConfigs$ConfigPaths$Group
+Enable Bartering Discount Display	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Enable Better Tooltips	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Enable Rarity Highlighter in AE and RS	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Enable Virtual Dehammerizer	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Enable a tooltip to show the amount of Ember granted on a failed Ascension Vault while holding <SHIFT> on Ascension Crystals	QOLHuntersClientConfigs
+Enable a tooltip to show the amount of Ember granted on a failed Ascension Vault while holding <SHIFT> on Challenger Rocks	QOLHuntersClientConfigs
+Enable highlighting Vault Gear in AE and RS while holding <SHIFT>	QOLHuntersClientConfigs
+Enable item overlay showing VOID/PICKUP/OFF state on magnets.	QOLHuntersClientConfigs
+Enable temporal modifier timer overlay	QOLHuntersClientConfigs
+Epic+ Gear	QOLHuntersClientConfigs
+Gear Roll Colors	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+General Configs	QOLHuntersClientConfigs$ConfigPaths$Group
+God Objective	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+God Objective X Offset	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+God Objective Y Offset	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Green Unlocked Researches	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Grid Background Opacity	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Grid Completion Color	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Grid Selection Color	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+HUD Positioning	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Highlights current objective scavenger items in your inventory	QOLHuntersClientConfigs
+Horizontal offset	QOLHuntersClientConfigs
+How far should modifier info render when the mode is NEAR.	QOLHuntersClientConfigs
+Hunter Particles	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Improved Stacked Jewel Pouch Chaining	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Improves the Abilities Tab including levelling specializations directly and showing all possible levels/overlevels	QOLHuntersClientConfigs
+Improves the Card Deck Screen	QOLHuntersClientConfigs
+Improves the Jewel Application Screen	QOLHuntersClientConfigs
+Improves the descriptions of soul values in tooltips when holding SHIFT	QOLHuntersClientConfigs
+Includes your bartering discount on shopping pedestals	QOLHuntersClientConfigs
+Item Chaining	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Magnet State Overlay	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Make Brazier Hologram larger when you're further away to make it readable	QOLHuntersClientConfigs
+Near distance	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Omega Gear	QOLHuntersClientConfigs
+Prestige Toggles	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+QOLHunters Configuration	QOLHuntersClientConfigs
+QOLHunters Configuration\nSOME CHANGES REQUIRE A CLIENT RESTART	QOLHuntersClientConfigs
+Rare+ Gear	QOLHuntersClientConfigs
+Rarity Highlighter	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Render a timer over Vault Gear items that are on cooldown	QOLHuntersClientConfigs
+Require shift to view currently modified gear in artisan station in button tooltips.	QOLHuntersClientConfigs
+Resource Card Roll Range	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Responsive Greed Trader Offers	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Saves and loads current keybinds when you save/load skills in the Skill Altar	QOLHuntersClientConfigs
+Scale of the text	QOLHuntersClientConfigs
+Scavenger Highlighter	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Scavenger Inventory Count	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Scavenger Vaults	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Scrappy+ Gear	QOLHuntersClientConfigs
+Searchable Vault Stations	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Shadowless Elixir Orbs	QOLHuntersClientConfigs$ConfigPaths
+Shopping Pedestal Throws Items	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Shopping Pedestals	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Shopping pedestals throw items so that your magnets/bags can pick them up instead	QOLHuntersClientConfigs
+Show Config Button	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Show Default White Hunter Particles	QOLHuntersClientConfigs
+Show Gear Cooldown Time	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Show Hunter Particles for Coins	QOLHuntersClientConfigs
+Show Hunter Particles for Dungeons	QOLHuntersClientConfigs
+Show Hunter Particles for Enigma Chests	QOLHuntersClientConfigs
+Show Hunter Particles for Flesh Chests	QOLHuntersClientConfigs
+Show Hunter Particles for Gilded Chests	QOLHuntersClientConfigs
+Show Hunter Particles for God Altars	QOLHuntersClientConfigs
+Show Hunter Particles for Hardened Chests	QOLHuntersClientConfigs
+Show Hunter Particles for Living Chests	QOLHuntersClientConfigs
+Show Hunter Particles for Objectives	QOLHuntersClientConfigs
+Show Hunter Particles for Objectives/Altars	QOLHuntersClientConfigs
+Show Hunter Particles for Ornate Chests	QOLHuntersClientConfigs
+Show Hunter Particles for Pylons	QOLHuntersClientConfigs
+Show Hunter Particles for Treasure Doors	QOLHuntersClientConfigs
+Show Hunter Particles for Vendors	QOLHuntersClientConfigs
+Show Hunter Particles for Wooden Chests	QOLHuntersClientConfigs
+Show Modifier Description on Brazier Hologram	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Show Modifier Name on Brazier Hologram	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Show alert when equipped vault curio has zero uses	QOLHuntersClientConfigs
+Show duration in the cooldown overlay while ability is active (only works with abilities which cooldown starts after their duration ends)	QOLHuntersClientConfigs
+Show jewel weights that determine which jewel gets chosen by identification stand.	QOLHuntersClientConfigs
+Show raw chests and speed up vault history screen	QOLHuntersClientConfigs
+Show the Config Button in the Statistics Menu (H)	QOLHuntersClientConfigs
+Show unlocked research requirements in green color	QOLHuntersClientConfigs
+Show ⌄ above jewel that would be chosen by identification stand.	QOLHuntersClientConfigs
+Shows the number of scavenger items you have in your inventory	QOLHuntersClientConfigs
+Skill Altar Save Keybinds	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Temporal Modifier Timer	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Treasure Key Swapper	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Treasure Pedestal Throws Items	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Treasure pedestals throw items so that your magnets/bags can pick them up instead	QOLHuntersClientConfigs
+Use Ctrl+Delete to remove a Dehammerizer	QOLHuntersClientConfigs
+Use Ctrl+RightClick to add a Dehammerizer.	QOLHuntersClientConfigs
+Use Shorthand	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Use Soul Shards	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Use a Warped Fungus on a Stick to configure Virtual Dehammerizer.	QOLHuntersClientConfigs
+Use arrow UP/DOWN keys to cycle between Dehammerizers.	QOLHuntersClientConfigs
+Use soul shards instead of soul value 	QOLHuntersClientConfigs
+Uses shorthand for soul values in tooltips (e.g. 1.4M instead of 1408933)	QOLHuntersClientConfigs
+Vault Interface Keybinds	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Vault Modifier Text Overlays	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Vertical offset	QOLHuntersClientConfigs
+Virtual Dehammerizer	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths$Group
+Virtual Dehammerizer Mode	QOLHuntersClientConfigs
+Virtual Dehammerizer Mode\nChoose SPHERE for a sphere defined around the chosen block position.\nChoose CYLINDER to encompass the full height of the map	QOLHuntersClientConfigs
+Virtual Dehammerizer Range	QOLHuntersClientConfigs
+When should brazier hologram display modifier descriptions.	QOLHuntersClientConfigs
+When should brazier hologram display modifier names.	QOLHuntersClientConfigs
+X Offset	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Y Offset	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Zero Uses Alert	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Zoom Out Further	QOLHuntersClientConfigs,QOLHuntersClientConfigs$ConfigPaths
+Zoom out further in zoomable vault screens (abilities, talents, researches, vault map).	QOLHuntersClientConfigs

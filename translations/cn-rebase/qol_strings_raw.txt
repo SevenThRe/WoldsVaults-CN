@@ -1,0 +1,167 @@
+Ability Duration Overlay
+Ability Multicast
+Add search box to vault stations
+Adds keybinds to craft/forge/reroll in the Bounty Table, Enchanter, Vault Forge, etc
+Adds roll ranges to resource cards when holding shift
+Adds text overlays to the Vault modifiers, e.g. '+10% Damage' or 'Speed +1'
+Adds toggles to prestige selection screen
+Allows you to cast multiple abilities with a single keybind
+Artisan Gear Tooltip requires Shift
+Ascension Crystal Ember Grant Amount
+Ascension Vaults
+Autochosen Jewel
+Autochosen Weight
+Automatically adjust greed trader offer size based on offer count and available space.
+Automatically open the next booster pack in your inventory after you select a card
+Automatically open the next jewel pouch in your inventory after you select a jewel
+Automatically select the next antique in your inventory after you open one
+Autoswap to the correct treasure key when you right-click a treasure door with another key as long as the correct key is in your main inventory
+Better Abilities Tab
+Better Bingo Descriptions
+Better Card Deck Screen
+Better Jewel Application Screen
+Better Loot Stats
+Better Screens
+Better Soul Value Tooltips
+Bingo Vaults
+Brazier Vaults
+Cake Vault Overlay Color
+Cake Vault Overlay Style
+Cake Vaults
+Chain Antiques
+Chain Booster Packs
+Chain Jewel Pouches
+Challenger Rock Ember Grant Amount
+Changes the X offset of the God Objective
+Changes the X offset of the God Objective\nDefined as % of screen width
+Changes the Y offset of the God Objective
+Changes the Y offset of the God Objective\nDefined as % of screen height
+Changes the color of the Bingo Grid completion overlay
+Changes the color of the Bingo Grid selection overlay
+Changes the color of the Vault Cake overlay
+Changes the opacity (%) of the Bingo Grid background
+Changes the style of the Vault Cake overlay
+Choose CYLINDER to encompass the full height of the map
+Choose SPHERE for a sphere defined around the chosen block position.
+Client-Only Extensions
+Common+ Gear
+Debug option - should stay enabled normally.
+Defined as % of screen height
+Defined as % of screen width
+Dehammerizer Mode
+Dehammerizer Range
+Drops identified jewels from overstacked pouches instead of weirdly shuffling them in your inv
+Drops identified jewels from overstacked pouches instead of weirdly shuffling them in your inv \nDebug option - should stay enabled normally.
+Dynamic Hologram Scale
+Elixir Orb Culling
+Elixir Vaults
+Enable Bartering Discount Display
+Enable Better Tooltips
+Enable Rarity Highlighter in AE and RS
+Enable Virtual Dehammerizer
+Enable a tooltip to show the amount of Ember granted on a failed Ascension Vault while holding <SHIFT> on Ascension Crystals
+Enable a tooltip to show the amount of Ember granted on a failed Ascension Vault while holding <SHIFT> on Challenger Rocks
+Enable highlighting Vault Gear in AE and RS while holding <SHIFT>
+Enable item overlay showing VOID/PICKUP/OFF state on magnets.
+Enable temporal modifier timer overlay
+Epic+ Gear
+Gear Roll Colors
+General Configs
+God Objective
+God Objective X Offset
+God Objective Y Offset
+Green Unlocked Researches
+Grid Background Opacity
+Grid Completion Color
+Grid Selection Color
+HUD Positioning
+Highlights current objective scavenger items in your inventory
+Horizontal offset
+How far should modifier info render when the mode is NEAR.
+Hunter Particles
+Improved Stacked Jewel Pouch Chaining
+Improves the Abilities Tab including levelling specializations directly and showing all possible levels/overlevels
+Improves the Card Deck Screen
+Improves the Jewel Application Screen
+Improves the descriptions of soul values in tooltips when holding SHIFT
+Includes your bartering discount on shopping pedestals
+Item Chaining
+Magnet State Overlay
+Make Brazier Hologram larger when you're further away to make it readable
+Near distance
+Omega Gear
+Prestige Toggles
+QOLHunters Configuration
+QOLHunters Configuration\nSOME CHANGES REQUIRE A CLIENT RESTART
+Rare+ Gear
+Rarity Highlighter
+Render a timer over Vault Gear items that are on cooldown
+Require shift to view currently modified gear in artisan station in button tooltips.
+Resource Card Roll Range
+Responsive Greed Trader Offers
+Saves and loads current keybinds when you save/load skills in the Skill Altar
+Scale of the text
+Scavenger Highlighter
+Scavenger Inventory Count
+Scavenger Vaults
+Scrappy+ Gear
+Searchable Vault Stations
+Shadowless Elixir Orbs
+Shopping Pedestal Throws Items
+Shopping Pedestals
+Shopping pedestals throw items so that your magnets/bags can pick them up instead
+Show Config Button
+Show Default White Hunter Particles
+Show Gear Cooldown Time
+Show Hunter Particles for Coins
+Show Hunter Particles for Dungeons
+Show Hunter Particles for Enigma Chests
+Show Hunter Particles for Flesh Chests
+Show Hunter Particles for Gilded Chests
+Show Hunter Particles for God Altars
+Show Hunter Particles for Hardened Chests
+Show Hunter Particles for Living Chests
+Show Hunter Particles for Objectives
+Show Hunter Particles for Objectives/Altars
+Show Hunter Particles for Ornate Chests
+Show Hunter Particles for Pylons
+Show Hunter Particles for Treasure Doors
+Show Hunter Particles for Vendors
+Show Hunter Particles for Wooden Chests
+Show Modifier Description on Brazier Hologram
+Show Modifier Name on Brazier Hologram
+Show alert when equipped vault curio has zero uses
+Show duration in the cooldown overlay while ability is active (only works with abilities which cooldown starts after their duration ends)
+Show jewel weights that determine which jewel gets chosen by identification stand.
+Show raw chests and speed up vault history screen
+Show the Config Button in the Statistics Menu (H)
+Show unlocked research requirements in green color
+Show ⌄ above jewel that would be chosen by identification stand.
+Shows the number of scavenger items you have in your inventory
+Skill Altar Save Keybinds
+Temporal Modifier Timer
+Treasure Key Swapper
+Treasure Pedestal Throws Items
+Treasure pedestals throw items so that your magnets/bags can pick them up instead
+Use Ctrl+Delete to remove a Dehammerizer
+Use Ctrl+RightClick to add a Dehammerizer.
+Use Shorthand
+Use Soul Shards
+Use a Warped Fungus on a Stick to configure Virtual Dehammerizer.
+Use arrow UP/DOWN keys to cycle between Dehammerizers.
+Use soul shards instead of soul value 
+Uses shorthand for soul values in tooltips (e.g. 1.4M instead of 1408933)
+Vault Interface Keybinds
+Vault Modifier Text Overlays
+Vertical offset
+Virtual Dehammerizer
+Virtual Dehammerizer Mode
+Virtual Dehammerizer Mode\nChoose SPHERE for a sphere defined around the chosen block position.\nChoose CYLINDER to encompass the full height of the map
+Virtual Dehammerizer Range
+When should brazier hologram display modifier descriptions.
+When should brazier hologram display modifier names.
+X Offset
+Y Offset
+Zero Uses Alert
+Zoom Out Further
+Zoom out further in zoomable vault screens (abilities, talents, researches, vault map).

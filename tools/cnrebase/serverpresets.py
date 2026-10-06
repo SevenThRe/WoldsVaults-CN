@@ -35,8 +35,13 @@ from __future__ import annotations
 #: 普通世界预设的 level-type（与官方包一致，保持默认行为不变）
 LEVEL_TYPE_NORMAL = "minecraft\\:normal"
 
-#: 天空宝库（虚空）预设。冒号按 properties 规范转义。
-LEVEL_TYPE_SKYBLOCK = "skyblockbuilder\\:skyblock"
+#: 天空宝库预设的 level-type。冒号按 properties 规范转义。
+#:
+#: 修正记录（2026-10-05）：原先这里错写成 ``skyblockbuilder\\:skyblock``，
+#: 那是 SkyblockBuilder 的虚空空岛，**不是**整合包说的「宝库」。整合包的
+#: 天空宝库是 the_vault 自己的 world_type，官方服务端包 server.properties
+#: 的默认值就是它（``level-type=the_vault\\:sky_vaults``）。
+LEVEL_TYPE_SKYBLOCK = "the_vault\\:sky_vaults"
 
 #: 另一种浮空岛玩法。保留在文档里，默认不启用。
 LEVEL_TYPE_SKYLANDS = "skyblockbuilder\\:skylands"
@@ -58,27 +63,32 @@ def _readme(pack_version: str) -> str:
 Wold's Vaults {pack_version} 服务端 —— 开服预设
 ================================================
 
-install.bat 装完 Forge 后会问你要哪套世界：
+install 脚本装完 Forge 后，会把两套世界预设放在包根目录：
 
-  [1] 普通世界   level-type = minecraft:normal
+  [1] 普通世界   server.properties.normal
+      level-type = minecraft:normal
       原版地形，正常探索挖矿开 Vault。
 
-  [2] 天空宝库   level-type = skyblockbuilder:skyblock
-      全虚空，玩家用 /island create 领自己的悬浮岛。
-      已预装汉化版 Sky Vaulters Support：自动生成悬浮宝库祭坛主城，
-      并修好了 Terralith 导致的天空生成失效。
+  [2] 天空宝库   server.properties.skyblock
+      level-type = the_vault:sky_vaults
+      整合包自己的天空宝库世界（官方服务端包的默认世界类型）。
+      客户端无需额外安装，官方客户端版已含 the_vault。
+
+关于 Teralith（重要）
+-------------------
+  **服务端不要安装 Terralith。**
+  skyblockaddon 8.2 在 processIMC 里硬编码检查 ModList.isLoaded("terralith")，
+  一旦发现就抛 TerralithFoundException 直接让服务端崩溃，且没有任何开关
+  （它的 settings.json 里也没有相关选项）。官方服务端包因此不附带 Teralith。
+  客户端装 Teralith 不影响开服：世界地形由服务端生成，客户端的 Teralith
+  只在单人世界生效。
 
 注意
 ----
 · level-type 只在【首次生成世界】时生效。已经跑过的世界改了也不会变，
   必须备份并删除 world/ 文件夹再重启。
-· 天空宝库需要客户端也装 SkyblockBuilder。整合包客户端版已自带。
-
-手动切换
---------
-  copy server.properties.skyblock server.properties
-  （换回普通世界则用 server.properties.normal）
-  改完记得删 world/ 文件
+· 切换预设：把对应的 server.properties.* 复制成 server.properties
+  （Linux/Mac 用 cp），然后删掉 world/ 再启动。
 """
 
 

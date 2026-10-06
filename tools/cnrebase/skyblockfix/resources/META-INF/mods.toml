@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/SevenThRe/WoldsVaults-CN/issues"
+
+[[mods]]
+modId = "woldsvaults_skyblock_fix"
+version = "1.1.2"
+displayName = "Wold's Vaults SkyblockAddon Fix"
+description = '''
+Fixes several skyblockaddon 8.2 gameplay bugs:
+ 1. One island per player (a member can no longer /island create a new island).
+ 2. Player islands spawn far from the vault's spawn island.
+ 3. The spawn island can only be broken by OPs.
+ 4. Players cannot build outside their own island (no bridging to spawn).
+ 5. Respawn defaults to the island spawn after create / accepting an invite.
+ 6. /island delete (player) and /island admin delete <uuid>/deleteall/cleararea (OP)
+    really remove an island, including its generated terrain, registry entry and
+    islanddata nbt; deleteall also resets the island grid far from spawn.
+ 7. Translates the hardcoded skill/ability dialog labels (Upgrade (N), All Levels,
+    Level N, Cost: N, ...) via the CN literal translator.
+ 8. Fix 3 and 4 only apply in the overworld. Previously they also ran in the vault
+    dimension, where they compared vault coordinates against overworld data and
+    blocked every break/place - non-OP players could not mine the vault at all.
+All fixes can be toggled in config/woldsvaults-skyblock-fix.json.
+'''
+
+[[dependencies.woldsvaults_skyblock_fix]]
+    modId = "skyblockaddon"
+    mandatory = true
+    ordering = "AFTER"
+    versionRange = "[8.2,)"
+
+[[dependencies.woldsvaults_skyblock_fix]]
+    modId = "woldsvaults_cn"
+    mandatory = true
+    ordering = "AFTER"
+    versionRange = "[1.0.17,)"

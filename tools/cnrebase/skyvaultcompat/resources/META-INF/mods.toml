@@ -1,0 +1,20 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/SevenThRe/WoldsVaults-CN/issues"
+
+[[mods]]
+modId = "woldsvaults_skyvault_compat"
+version = "1.0.0"
+displayName = "Wold's Vaults Sky Vaults - Teralith Compatibility"
+description = '''
+Keeps the Sky Vaults / SkyblockBuilder world terrain when Teralith is installed, by
+holding TerraBlender's vanilla_overworld_region_weight up in vault worlds.
+If the TerraBlender method this hooks is not present, the mixin does nothing.
+'''
+
+[[dependencies.woldsvaults_skyvault_compat]]
+    modId = "terrablender"
+    mandatory = false
+    ordering = "AFTER"
+    versionRange = "[1.2,)"

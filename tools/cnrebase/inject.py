@@ -33,6 +33,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from tools.cnrebase import assets
+from tools.cnrebase import serverlist
 from tools.cnrebase import serverpresets
 from tools.cnrebase.packs import ClientPack, ServerPack, rewrite_zip
 
@@ -329,16 +330,26 @@ def inject_client(
         for k, v in (extra_overrides or {}).items():
             add[pre + k] = v
 
+        # ③ 内置服务器列表：官方包塞了 8 台国外社区服，对中文玩家无用，替换为
+        #    自建服（serverlist.DEFAULT_SERVERS）。servers.dat 在官方包里已存在，
+        #    必须走 replace 通道；两处副本（根目录 + configureddefaults/）一起换。
+        servers_dat = serverlist.write_servers_dat()
+        replace = {"manifest.json": manifest_bytes, **p_rep}
+        for rel in ("servers.dat", "configureddefaults/servers.dat"):
+            if (pre + rel) in existing:
+                replace[pre + rel] = servers_dat
+
         res.added = sorted(k[len(pre):] for k in add)
         res.stats = rewrite_zip(
             cp.path,
             out_zip,
             add=add,
-            replace={"manifest.json": manifest_bytes, **p_rep},
+            replace=replace,
             order_first=("manifest.json", "modlist.html"),
         )
         res.stats["payload_added"] = len(p_add)
         res.stats["payload_replaced"] = len(p_rep)
+        res.stats["servers_replaced"] = len(replace) - 1 - len(p_rep)
         res.path = Path(out_zip)
         return res
 

@@ -48,3 +48,13 @@ venv/
 
 # 译料层的临时补丁产物
 translations/cn-rebase/*.patch-*.tsv
+
+# 一次性排查/反编译残留（_ 前缀的临时目录与文件）
+tools/cnrebase/_*/
+tools/cnrebase/_*.class
+tools/cnrebuild/_*/
+tools/cnrebase/build/
+tools/cnrebase/assets/
+tools/cnrebase/*.class
+tools/cnrebase/*/build/
+_perm_names.txt

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.woldsvaults.skyblockfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8.5",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MixinIslandManager",
+    "MixinIslandGridOrigin",
+    "MixinForgeIslandRespawn",
+    "MixinLiteralGuiL10n"
+  ]
+}

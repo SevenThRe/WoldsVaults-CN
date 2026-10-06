@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "package": "com.woldsvaults.skyvaultcompat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8.5",
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "mixins": [
+    "MixinTerraBlenderRegionWeight"
+  ],
+  "server": [
+  ],
+  "client": [
+  ]
+}
